@@ -1,0 +1,127 @@
+---
+import '@fontsource-variable/space-grotesk';
+import '@fontsource-variable/inter';
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { getLangFromUrl, alternatePath } from '../i18n/utils';
+
+interface Props {
+  title: string;
+  description: string;
+  /** Image OpenGraph (chemin absolu depuis /public). */
+  image?: string;
+  /** Type de page pour OpenGraph. */
+  type?: 'website' | 'article';
+  /** Empêcher l'indexation (pages utilitaires). */
+  noindex?: boolean;
+  /** Override des URL alternées (hreflang) quand les slugs diffèrent par langue. */
+  alternates?: { fr: string; en: string };
+}
+
+const { title, description, image = '/brand/og-default.png', type = 'website', noindex = false, alternates } = Astro.props;
+
+const lang = getLangFromUrl(Astro.url);
+const ogLocale = lang === 'fr' ? 'fr_FR' : 'en_US';
+
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const frUrl = new URL(alternates ? alternates.fr : alternatePath(Astro.url.pathname, 'fr'), Astro.site).href;
+const enUrl = new URL(alternates ? alternates.en : alternatePath(Astro.url.pathname, 'en'), Astro.site).href;
+const ogImage = new URL(image, Astro.site).href;
+
+const orgJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'DIGABLO',
+  url: 'https://digablo.fr',
+  logo: 'https://digablo.fr/brand/digablo-logo-dark.png',
+  description:
+    "Agence digitale internationale : logiciels sur mesure, applications web et mobiles, sites web et marketing digital.",
+  email: 'contact@digablo.fr',
+  telephone: '+33783823956',
+  address: [
+    {
+      '@type': 'PostalAddress',
+      streetAddress: '32 rue Félicien Rops',
+      postalCode: '91100',
+      addressLocality: 'Corbeil-Essonnes',
+      addressCountry: 'FR',
+    },
+    {
+      '@type': 'PostalAddress',
+      streetAddress: 'Avenue Marinelle n° 8 Bis, C/Gombé',
+      addressLocality: 'Kinshasa',
+      addressCountry: 'CD',
+    },
+  ],
+  contactPoint: [
+    { '@type': 'ContactPoint', telephone: '+33783823956', contactType: 'customer service', areaServed: 'FR' },
+    { '@type': 'ContactPoint', telephone: '+243858869656', contactType: 'customer service', areaServed: 'CD' },
+  ],
+  sameAs: ['https://pos.digablo.fr'],
+  makesOffer: {
+    '@type': 'Offer',
+    itemOffered: {
+      '@type': 'SoftwareApplication',
+      name: 'digabloPos',
+      applicationCategory: 'BusinessApplication',
+      operatingSystem: 'Web, Android, iOS, Windows',
+      offers: { '@type': 'Offer', price: '0', priceCurrency: 'EUR' },
+    },
+  },
+};
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
+    <link rel="canonical" href={canonical} />
+
+    <!-- Alternances de langue (hreflang) -->
+    <link rel="alternate" hreflang="fr-FR" href={frUrl} />
+    <link rel="alternate" hreflang="en" href={enUrl} />
+    <link rel="alternate" hreflang="x-default" href={frUrl} />
+
+    <!-- OpenGraph -->
+    <meta property="og:type" content={type} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:locale" content={ogLocale} />
+    <meta property="og:site_name" content="DIGABLO" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+
+    <meta name="theme-color" content="#0b0e13" />
+    <meta name="generator" content={Astro.generator} />
+
+    <script type="application/ld+json" set:html={JSON.stringify(orgJsonLd)} is:inline />
+  </head>
+  <body class="antialiased">
+    <a
+      href="#main"
+      class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-brand-600 focus:px-4 focus:py-2 focus:text-white"
+    >
+      Aller au contenu
+    </a>
+    <Header />
+    <main id="main">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

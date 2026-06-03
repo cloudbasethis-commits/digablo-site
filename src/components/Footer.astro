@@ -1,0 +1,80 @@
+---
+import { Image } from 'astro:assets';
+import logoLight from '../assets/brand/digablo-logo-light.png';
+import { getLangFromUrl, useTranslations, localizePath, aboutPath } from '../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const home = localizePath('/', lang);
+const year = 2026;
+
+const services = [
+  { href: 'https://pos.digablo.fr', label: t('footer.product'), external: true },
+  { href: localizePath('/services/software-development', lang), label: t('footer.dev') },
+  { href: localizePath('/services/web-mobile-apps', lang), label: t('footer.mobile') },
+  { href: localizePath('/services/websites-ecommerce', lang), label: t('footer.web') },
+  { href: localizePath('/services/digital-marketing', lang), label: t('footer.marketing') },
+];
+---
+
+<footer class="bg-ink-950 text-ink-300">
+  <div class="mx-auto grid max-w-7xl gap-10 px-5 py-14 sm:grid-cols-2 lg:grid-cols-4 lg:px-8">
+    <div class="sm:col-span-2 lg:col-span-1">
+      <Image src={logoLight} alt="DIGABLO" width={140} densities={[1, 2]} class="h-9 w-auto" />
+      <p class="mt-4 max-w-xs text-sm leading-relaxed text-ink-400">{t('footer.tagline')}</p>
+    </div>
+
+    <div>
+      <h2 class="text-sm font-semibold tracking-wide text-white uppercase">{t('footer.services')}</h2>
+      <ul class="mt-4 space-y-2.5 text-sm">
+        {
+          services.map((s) => (
+            <li>
+              <a
+                href={s.href}
+                class="transition hover:text-brand-400"
+                {...(s.external ? { target: '_blank', rel: 'noopener' } : {})}
+              >
+                {s.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+
+    <div>
+      <h2 class="text-sm font-semibold tracking-wide text-white uppercase">{t('footer.company')}</h2>
+      <ul class="mt-4 space-y-2.5 text-sm">
+        <li><a href={aboutPath(lang)} class="transition hover:text-brand-400">{t('nav.about')}</a></li>
+        <li><a href={`${home}#products-portfolio`} class="transition hover:text-brand-400">{lang === 'fr' ? 'Nos produits' : 'Our products'}</a></li>
+        <li><a href={localizePath('/blog', lang)} class="transition hover:text-brand-400">{t('nav.blog')}</a></li>
+        <li><a href={`${home}#contact`} class="transition hover:text-brand-400">{t('nav.contact')}</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h2 class="text-sm font-semibold tracking-wide text-white uppercase">{t('footer.contact')}</h2>
+      <address class="mt-4 space-y-3 text-sm not-italic leading-relaxed">
+        <div>
+          <p class="font-semibold text-white">France</p>
+          <p>32 rue Félicien Rops<br />91100 Corbeil-Essonnes</p>
+          <p><a href="tel:+33783823956" class="transition hover:text-brand-400">+33 7 83 82 39 56</a></p>
+        </div>
+        <div>
+          <p class="font-semibold text-white">RDC</p>
+          <p>Avenue Marinelle n° 8 Bis<br />C/Gombé — Kinshasa</p>
+          <p><a href="tel:+243858869656" class="transition hover:text-brand-400">+243 858 869 656</a></p>
+        </div>
+        <p><a href="mailto:contact@digablo.fr" class="transition hover:text-brand-400">contact@digablo.fr</a></p>
+      </address>
+    </div>
+  </div>
+
+  <div class="border-t border-white/10">
+    <div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-5 py-5 text-xs text-ink-400 sm:flex-row lg:px-8">
+      <p>© {year} DIGABLO. {t('footer.rights')}</p>
+      <p>Kinshasa · Paris · Worldwide</p>
+    </div>
+  </div>
+</footer>

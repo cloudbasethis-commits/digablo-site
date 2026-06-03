@@ -1,0 +1,19 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ServicesHub from '../../components/ServicesHub.astro';
+import { getServices } from '../../data/services';
+
+const services = getServices('fr');
+---
+
+<BaseLayout
+  title="Nos services — Développement, apps, sites web & marketing | DIGABLO"
+  description="Découvrez les services de DIGABLO : développement de logiciels sur mesure, applications web et mobiles, création de sites web et e-commerce, et marketing digital."
+>
+  <ServicesHub
+    lang="fr"
+    services={services}
+    heading="Tout le digital, sous un seul toit"
+    intro="Du logiciel sur mesure au marketing, nous couvrons toute la chaîne pour faire grandir votre entreprise."
+  />
+</BaseLayout>
