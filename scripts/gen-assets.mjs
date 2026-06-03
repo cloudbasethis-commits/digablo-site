@@ -8,12 +8,17 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const pub = resolve(__dirname, '..', 'public');
 const brand = resolve(pub, 'brand');
 
-// ---------- 1. apple-touch-icon (180x180) depuis le favicon ----------
-await sharp(resolve(pub, 'favicon.svg'))
-  .resize(180, 180)
-  .png()
-  .toFile(resolve(pub, 'apple-touch-icon.png'));
-console.log('✓ apple-touch-icon.png');
+// ---------- 1. Favicons depuis le logo de marque (public/brand/favicon-digablo.png) ----------
+const faviconSrc = resolve(brand, 'favicon-digablo.png');
+const iconSizes = [
+  { size: 32, out: resolve(pub, 'favicon-32.png') },
+  { size: 192, out: resolve(pub, 'favicon-192.png') },
+  { size: 180, out: resolve(pub, 'apple-touch-icon.png') },
+];
+for (const { size, out } of iconSizes) {
+  await sharp(faviconSrc).resize(size, size, { fit: 'contain', background: { r: 0, g: 0, b: 0, alpha: 0 } }).png().toFile(out);
+}
+console.log('✓ favicon-32.png, favicon-192.png, apple-touch-icon.png');
 
 // ---------- 2. Image OpenGraph (1200x630) ----------
 const W = 1200;

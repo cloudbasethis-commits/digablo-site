@@ -1,7 +1,9 @@
 ---
+import { Image } from 'astro:assets';
 import type { HomeContent } from '../data/home';
 import type { Lang } from '../i18n/ui';
 import { localizePath } from '../i18n/utils';
+import posDesktop from '../assets/pos-desktop.png';
 
 interface Props {
   content: HomeContent;
@@ -152,11 +154,11 @@ const servicesLinkLabel = lang === 'fr' ? 'Voir le détail de nos services' : 'S
 
     <div class="relative">
       <div class="rounded-2xl border border-white/10 bg-white/5 p-2 shadow-2xl shadow-black/40">
-        <img
-          src="https://digablo.fr/wp-content/uploads/2026/04/pos_desktop-1536x798.png"
+        <Image
+          src={posDesktop}
           alt="Interface du logiciel de caisse digabloPos"
-          width="1536"
-          height="798"
+          widths={[640, 1280]}
+          sizes="(min-width: 1024px) 50vw, 100vw"
           loading="lazy"
           class="w-full rounded-xl"
         />
