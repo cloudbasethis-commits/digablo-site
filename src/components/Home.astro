@@ -276,6 +276,7 @@ const servicesLinkLabel = lang === 'fr' ? 'Voir le détail de nos services' : 'S
       <input type="hidden" name="access_key" value="8788ee36-65c7-4209-8491-67f7fe4564e6" />
       <input type="hidden" name="subject" value="Nouveau message depuis digablo.fr" />
       <input type="hidden" name="from_name" value="Site DIGABLO" />
+      <input type="hidden" name="redirect" value={lang === 'fr' ? 'https://digablo.fr/merci' : 'https://digablo.fr/en/thank-you'} />
       <!-- Honeypot anti-spam -->
       <input type="checkbox" name="botcheck" class="hidden" style="display:none" tabindex="-1" autocomplete="off" />
 

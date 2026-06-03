@@ -32,6 +32,7 @@ export function aboutPath(lang: Lang): string {
  */
 const localizedSlugPairs: Record<string, string> = {
   '/a-propos': '/about',
+  '/merci': '/thank-you',
 };
 
 /** Donne l'URL équivalente dans l'autre langue (pour le sélecteur de langue). */
