@@ -1,0 +1,49 @@
+ ▎ « Reproduis le playbook DIGABLO (migration WordPress → Astro/Vercel) pour ce site. Voici le brief : »
+
+  …suivie du brief ci-dessous rempli.
+
+  📋 Le brief type à copier-coller (remplis les crochets)
+
+  ANCIEN SITE
+  - URL du site WordPress actuel : [ex. https://exemple.fr]
+  - Domaine cible : [garder exemple.fr / nouveau domaine]
+
+  LANGUES & DESIGN
+  - Langues : [FR / FR+EN / ...]
+  - Design : [garder l'identité actuelle / refonte premium libre / je t'envoie des références]
+  - Logo + couleurs + favicon : [fichiers fournis / à extraire de l'ancien site]
+
+  L'ENTREPRISE
+  - Activité en 1-2 phrases : [...]
+  - Services à présenter : [liste]
+  - Positionnement / audience cible : [local / international / niche]
+  - Produits maison à mettre en portfolio (avec URL) : [ex. produitX.com — ce qu'il fait]
+
+  CONTACT
+  - Adresse(s) : [par pays si plusieurs]
+  - Téléphone(s) : [par pays]
+  - Email de contact : [...]
+
+  TECHNIQUE / COMPTES
+  - DNS géré par : [Cloudflare / OVH / autre]  | Hébergeur mail : [o2switch / Google / ...]
+  - Compte GitHub : [lequel]  | Compte Vercel : [lequel]
+  - Email de réception du formulaire : [...]
+  - Analytics : [Vercel / GA4 / aucun]
+
+  Plus j'ai d'infos d'entrée, moins on fait d'allers-retours.
+
+  🎁 Ce que tu obtiens à chaque fois (le « livrable » standard)
+
+  - Site Astro + Tailwind, multilingue avec hreflang, Lighthouse 100/100/100/100
+  - Pages services dédiées + blog (articles sourcés) + À propos + portfolio produits
+  - SEO complet : title/meta/canonical, sitemap, JSON-LD, robots, plan de mots-clés
+  - Image OG + favicon, formulaire de contact + page de remerciement
+  - Déploiement Vercel auto (GitHub) + redirections 301 des anciennes URLs + en-têtes sécurité + analytics
+
+  ⚡ Astuces pour aller encore plus vite
+
+  1. Prépare les accès avant : gh auth login (GitHub) et vercel login faits dans la session → je peux créer le repo + déployer sans blocage.
+  2. Garde l'ancien site en ligne le temps de la migration (pour récupérer logos, images, anciennes URLs → redirections 301).
+  3. Repo public dès le départ (sites vitrines) → évite le blocage Vercel Hobby qu'on a eu.
+  4. Aie à portée : les fichiers logo en bonne résolution + le favicon, et la liste des produits/coordonnées.
+  5. Pour le DNS : sache qui gère le DNS et où sont tes mails (pour ne pas casser les MX).
