@@ -180,6 +180,13 @@ export const homeContent: Record<Lang, HomeContent> = {
           href: 'https://surestaria.com/',
           cta: 'Visiter le site',
         },
+        {
+          name: 'NionsoToo',
+          tag: 'Marketplace · Petites annonces · Afrique',
+          desc: 'Plateforme de petites annonces gratuites — immobilier, véhicules, mode, électronique, emplois, services… Acheter, vendre et découvrir simplement. « Tout Kin dans ta main ».',
+          href: 'https://nionsotoo.com/',
+          cta: 'Visiter le site',
+        },
       ],
     },
     contact: {
@@ -303,6 +310,13 @@ export const homeContent: Record<Lang, HomeContent> = {
           tag: 'Port logistics · Freight & customs · Africa',
           desc: 'Demurrage invoicing software for freight forwarders and customs brokers: container tracking, automated calculation from carrier tariffs, document management and multi-currency billing.',
           href: 'https://surestaria.com/',
+          cta: 'Visit the site',
+        },
+        {
+          name: 'NionsoToo',
+          tag: 'Marketplace · Classified ads · Africa',
+          desc: 'Free classified-ads marketplace — real estate, vehicles, fashion, electronics, jobs, services… Buy, sell and discover, simply.',
+          href: 'https://nionsotoo.com/',
           cta: 'Visit the site',
         },
       ],
