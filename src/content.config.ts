@@ -14,6 +14,10 @@ const blog = defineCollection({
       tags: z.array(z.string()).default([]),
       cover: image().optional(),
       draft: z.boolean().default(false),
+      /** Questions/réponses affichées en fin d'article et exposées en FAQPage (JSON-LD). */
+      faq: z
+        .array(z.object({ question: z.string(), answer: z.string() }))
+        .optional(),
     }),
 });
 

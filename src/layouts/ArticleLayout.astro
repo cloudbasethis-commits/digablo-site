@@ -11,25 +11,78 @@ interface Props {
 }
 const { post, lang } = Astro.props;
 const t = useTranslations(lang);
-const { title, description, pubDate, author, tags, cover } = post.data;
+const { title, description, pubDate, updatedDate, author, tags, cover, faq } = post.data;
 const coverSrc = cover ? (typeof cover === 'string' ? cover : cover.src) : undefined;
+
+const SITE = 'https://digablo.fr';
+/** Même convention de « / » final que la canonique et le sitemap. */
+const withTrailingSlash = (path: string) => (path.endsWith('/') ? path : `${path}/`);
+const canonical = new URL(withTrailingSlash(Astro.url.pathname), SITE).href;
+/** Image de l'article : couverture si présente, sinon visuel OG de marque (1200x630). */
+const articleImage = new URL(coverSrc ?? '/brand/og-default.png', SITE).href;
+const published = pubDate.toISOString();
+const modified = (updatedDate ?? pubDate).toISOString();
+const blogUrl = new URL(withTrailingSlash(localizePath('/blog', lang)), SITE).href;
 
 const articleJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'BlogPosting',
+  '@id': `${canonical}#article`,
+  mainEntityOfPage: { '@type': 'WebPage', '@id': canonical },
+  url: canonical,
   headline: title,
   description,
-  datePublished: pubDate.toISOString(),
-  author: { '@type': 'Organization', name: author },
+  image: articleImage,
+  inLanguage: lang === 'fr' ? 'fr-FR' : 'en',
+  datePublished: published,
+  dateModified: modified,
+  keywords: tags.join(', '),
+  wordCount: post.body?.trim().split(/\s+/).length,
+  author: { '@type': 'Organization', name: author, url: SITE },
   publisher: {
     '@type': 'Organization',
     name: 'DIGABLO',
-    logo: { '@type': 'ImageObject', url: 'https://digablo.fr/brand/digablo-logo-dark.png' },
+    url: SITE,
+    logo: { '@type': 'ImageObject', url: `${SITE}/brand/digablo-logo-dark.png` },
   },
+  isPartOf: { '@type': 'Blog', '@id': `${blogUrl}#blog`, name: 'DIGABLO', url: blogUrl },
 };
+
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: t('common.home'), item: new URL(localizePath('/', lang), SITE).href },
+    { '@type': 'ListItem', position: 2, name: t('nav.blog'), item: blogUrl },
+    { '@type': 'ListItem', position: 3, name: title, item: canonical },
+  ],
+};
+
+/** FAQPage : uniquement si les Q/R sont réellement affichées sur la page. */
+const faqJsonLd = faq?.length
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      '@id': `${canonical}#faq`,
+      inLanguage: lang === 'fr' ? 'fr-FR' : 'en',
+      mainEntity: faq.map((item) => ({
+        '@type': 'Question',
+        name: item.question,
+        acceptedAnswer: { '@type': 'Answer', text: item.answer },
+      })),
+    }
+  : null;
 ---
 
-<BaseLayout title={`${title} — DIGABLO`} description={description} type="article" image={coverSrc}>
+<BaseLayout
+  title={`${title} — DIGABLO`}
+  description={description}
+  type="article"
+  image={coverSrc}
+  publishedTime={published}
+  modifiedTime={modified}
+  tags={tags}
+>
   <article class="bg-white py-16 lg:py-20">
     <div class="mx-auto max-w-3xl px-5 lg:px-8">
       <a href={localizePath('/blog', lang)} class="text-sm font-medium text-brand-600 hover:text-brand-700">
@@ -42,7 +95,11 @@ const articleJsonLd = {
         </div>
         <h1 class="mt-4 text-3xl font-bold leading-tight text-ink-950 sm:text-4xl">{title}</h1>
         <p class="mt-4 text-sm text-ink-500">
-          {t('common.published')} {formatDate(pubDate, lang)} · {readingTime(post.body)} {t('common.minRead')} · {author}
+          <time datetime={published}>{t('common.published')} {formatDate(pubDate, lang)}</time>
+          {updatedDate && (
+            <> · <time datetime={modified}>{t('common.updated')} {formatDate(updatedDate, lang)}</time></>
+          )}
+          {' '}· {readingTime(post.body)} {t('common.minRead')} · {author}
         </p>
       </header>
 
@@ -55,6 +112,22 @@ const articleJsonLd = {
       <div class="article-body mt-10">
         <slot />
       </div>
+
+      {
+        faq && faq.length > 0 && (
+          <section class="mt-14" aria-labelledby="faq-heading">
+            <h2 id="faq-heading" class="text-2xl font-bold text-ink-950">{t('common.faq')}</h2>
+            <dl class="mt-6 divide-y divide-ink-100 border-t border-ink-100">
+              {faq.map((item) => (
+                <div class="py-5">
+                  <dt class="font-semibold text-ink-950">{item.question}</dt>
+                  <dd class="mt-2 text-ink-600">{item.answer}</dd>
+                </div>
+              ))}
+            </dl>
+          </section>
+        )
+      }
 
       <hr class="mt-12 border-ink-100" />
       <div class="mt-8 rounded-2xl bg-ink-950 p-8 text-center text-white">
@@ -70,4 +143,6 @@ const articleJsonLd = {
   </article>
 
   <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} is:inline />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} is:inline />
+  {faqJsonLd && <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} is:inline />}
 </BaseLayout>

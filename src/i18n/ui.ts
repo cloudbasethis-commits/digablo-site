@@ -37,7 +37,10 @@ export const ui = {
     'common.allPosts': 'Tous les articles',
     'common.backToBlog': '← Retour au blog',
     'common.published': 'Publié le',
+    'common.updated': 'Mis à jour le',
     'common.minRead': 'min de lecture',
+    'common.faq': 'Questions fréquentes',
+    'common.home': 'Accueil',
   },
   en: {
     'nav.services': 'Services',
@@ -64,6 +67,9 @@ export const ui = {
     'common.allPosts': 'All articles',
     'common.backToBlog': '← Back to blog',
     'common.published': 'Published on',
+    'common.updated': 'Updated on',
     'common.minRead': 'min read',
+    'common.faq': 'Frequently asked questions',
+    'common.home': 'Home',
   },
 } as const;
