@@ -47,7 +47,7 @@ Where Square often assumes a stable connection and card payments, digabloPos sta
 | Card payment acceptance | 8 countries (US, CA, AU, JP, UK, IE, FR, ES) | Depends on local context |
 | Dedicated hardware | 4 countries (US, CA, UK, AU) | None required: existing devices |
 | Mandatory subscription | No (free plan) | No |
-| Card transaction fee | 2.6% + $0.15 (in-person) | Not advertised |
+| Card transaction fee | US: 2.6% + $0.15 in person; France: 1.65% ([Square](https://squareup.com/fr/fr/pricing)) | Not advertised |
 | Local mobile money | Not supported | M-Pesa, Orange Money, Airtel Money |
 | Offline mode | Limited | Built to last |
 | Inventory and reports | Yes | Yes |

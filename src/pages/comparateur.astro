@@ -1,0 +1,67 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ComparisonTable from '../components/ComparisonTable.astro';
+import { comparisonPage, solutions, criteria, lastChecked } from '../data/comparison';
+
+const c = comparisonPage.fr;
+const SITE = 'https://digablo.fr';
+const canonical = `${SITE}/comparateur/`;
+
+/** ItemList de SoftwareApplication : format que les moteurs IA citent volontiers. */
+const itemListJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  '@id': `${canonical}#comparison`,
+  name: c.heading,
+  description: c.description,
+  inLanguage: 'fr-FR',
+  numberOfItems: solutions.length,
+  itemListElement: solutions.map((s, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    item: {
+      '@type': 'SoftwareApplication',
+      name: s.name,
+      url: s.url,
+      applicationCategory: 'BusinessApplication',
+      operatingSystem: 'Web, Android, iOS',
+      description: criteria.map((crit) => `${crit.label.fr} : ${s.cells[crit.key]?.fr}`).join('. '),
+    },
+  })),
+};
+
+const faqJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  '@id': `${canonical}#faq`,
+  inLanguage: 'fr-FR',
+  mainEntity: c.faq.map((item) => ({
+    '@type': 'Question',
+    name: item.question,
+    acceptedAnswer: { '@type': 'Answer', text: item.answer },
+  })),
+};
+
+const datasetJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Dataset',
+  '@id': `${canonical}#dataset`,
+  name: c.heading,
+  description: c.description,
+  dateModified: lastChecked,
+  creator: { '@type': 'Organization', name: 'DIGABLO', url: SITE },
+  license: `${SITE}/comparateur/`,
+};
+---
+
+<BaseLayout
+  title={`${c.title} | DIGABLO`}
+  description={c.description}
+  alternates={{ fr: '/comparateur', en: '/en/pos-comparison' }}
+>
+  <ComparisonTable lang="fr" />
+
+  <script type="application/ld+json" set:html={JSON.stringify(itemListJsonLd)} is:inline />
+  <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} is:inline />
+  <script type="application/ld+json" set:html={JSON.stringify(datasetJsonLd)} is:inline />
+</BaseLayout>

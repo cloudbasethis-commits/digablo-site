@@ -58,7 +58,7 @@ Vous encaissez en mobile money directement depuis la caisse, sans application pa
 | Stocks et alertes visibles hors ligne | Non ([support Loyverse](https://support.loyverse.com/en/articles/3178196-offline-use-of-loyverse-pos)) | Oui (gestion des stocks intégrée) |
 | Mobile money local (M-Pesa, Orange, Airtel) | Non natif | Intégré nativement |
 | Gestion des employés | Add-on payant ([Capterra](https://www.capterra.com/p/150632/Loyverse-POS/)) | Inclus |
-| Inventaire avancé | Add-on à 29 $/mois par boutique ([ITQlick](https://www.itqlick.com/loyverse-pos/pricing)) | Inclus |
+| Inventaire avancé | Add-on à 25 $/mois par boutique ([Loyverse](https://loyverse.com/pricing)) | Inclus |
 | Multi-appareils | Oui | Oui (smartphone, tablette, ordinateur) |
 | Écosystème d'add-ons tiers | Très riche | Centré sur l'essentiel |
 | Abonnement obligatoire | Non, mais fonctions clés payantes | Non |
@@ -72,7 +72,7 @@ Soyons précis et honnêtes. Loyverse ne facture pas de frais de transaction cac
 
 Mais plusieurs fonctions que beaucoup de commerçants considèrent comme essentielles sont des **add-ons payants** facturés par boutique :
 
-- l'**inventaire avancé** coûte **29 $/mois par établissement** (ou 348 $/an) ([ITQlick](https://www.itqlick.com/loyverse-pos/pricing)) ;
+- l'**inventaire avancé** coûte **25 $/mois par boutique** (ou 250 $/an) ([Loyverse](https://loyverse.com/pricing)) ;
 - la **gestion des employés** et l'intégration avec des outils tiers (WooCommerce, comptabilité) sont également des modules payants ([Capterra](https://www.capterra.com/p/150632/Loyverse-POS/), [Centre d'aide Loyverse](https://help.loyverse.com/help/offline-work-of-pos)).
 
 Pour un commerce à plusieurs points de vente, ces coûts par boutique s'additionnent vite. digabloPos garde les fondamentaux, stocks, rapports, multi-appareils, mobile money, réellement gratuits et **n'impose aucun abonnement obligatoire**. Pour un petit commerce ou une jeune activité qui surveille chaque charge fixe, cette prévisibilité compte autant que la liste de fonctionnalités.
@@ -115,7 +115,7 @@ Vous voulez un avis adapté à votre activité ? [Discutons de votre projet](/#c
 - [Loyverse, Limites du mode hors ligne (support)](https://support.loyverse.com/en/articles/3178196-offline-use-of-loyverse-pos)
 - [Capterra, Avis et note Loyverse POS (4,8/5)](https://www.capterra.com/p/150632/Loyverse-POS/reviews/)
 - [Capterra, Fonctionnalités et add-ons Loyverse POS](https://www.capterra.com/p/150632/Loyverse-POS/)
-- [ITQlick, Tarifs Loyverse (inventaire avancé 29 $/mois)](https://www.itqlick.com/loyverse-pos/pricing)
+- [Loyverse, tarifs officiels (inventaire avancé 25 $/mois)](https://loyverse.com/pricing)
 - [Ecofin Agency / GSMA, Mobile money en Afrique +15 % en 2024](https://www.ecofinagency.com/finance/0904-46604-mobile-money-transactions-in-africa-surge-15-in-2024-gsma)
 - [GSMA, 2 milliards de comptes mobile money dans le monde](https://www.gsma.com/newsroom/press-release/mobile-money-surpasses-two-billion-registered-accounts-and-over-half-a-billion-monthly-active-users-globally/)
 - [Finance in Africa, Pays africains et bancarisation 2024](https://financeinafrica.com/insights/cash-digital-banked-african-countries/)

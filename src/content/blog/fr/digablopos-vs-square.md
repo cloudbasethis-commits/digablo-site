@@ -47,7 +47,7 @@ Là où Square suppose souvent une connexion stable et un paiement par carte, di
 | Acceptation paiement carte | 8 pays (US, CA, AU, JP, UK, IE, FR, ES) | Selon contexte local |
 | Matériel dédié | 4 pays (US, CA, UK, AU) | Aucun requis : appareils existants |
 | Abonnement obligatoire | Non (formule gratuite) | Non |
-| Frais par transaction carte | 2,6 % + 0,15 $ (présentiel) | Non annoncé |
+| Frais par transaction carte | États-Unis : 2,6 % + 0,15 $ en présentiel ; France : 1,65 % ([Square](https://squareup.com/fr/fr/pricing)) | Non annoncé |
 | Mobile money local | Non pris en charge | M-Pesa, Orange Money, Airtel Money |
 | Mode hors ligne | Limité | Conçu pour durer |
 | Stocks et rapports | Oui | Oui |

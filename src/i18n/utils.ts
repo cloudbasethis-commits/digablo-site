@@ -26,6 +26,11 @@ export function aboutPath(lang: Lang): string {
   return lang === 'fr' ? '/a-propos' : '/en/about';
 }
 
+/** Chemin du comparateur de logiciels de caisse (slug localisé). */
+export function comparisonPath(lang: Lang): string {
+  return lang === 'fr' ? '/comparateur' : '/en/pos-comparison';
+}
+
 /**
  * Paires de chemins dont le slug diffère selon la langue.
  * Clé = chemin FR (sans /en), valeur = chemin EN (sans /en).
@@ -33,6 +38,7 @@ export function aboutPath(lang: Lang): string {
 const localizedSlugPairs: Record<string, string> = {
   '/a-propos': '/about',
   '/merci': '/thank-you',
+  '/comparateur': '/pos-comparison',
 };
 
 /** Donne l'URL équivalente dans l'autre langue (pour le sélecteur de langue). */
