@@ -3,6 +3,7 @@ import { Image } from 'astro:assets';
 import type { HomeContent } from '../data/home';
 import type { Lang } from '../i18n/ui';
 import { localizePath } from '../i18n/utils';
+import LatestPosts from './LatestPosts.astro';
 import posDesktop from '../assets/pos-desktop.png';
 
 interface Props {
@@ -241,6 +242,14 @@ const servicesLinkLabel = lang === 'fr' ? 'Voir le détail de nos services' : 'S
     </ol>
   </div>
 </section>
+
+<!-- ======================= DERNIERS ARTICLES ======================= -->
+<LatestPosts
+  lang={lang}
+  eyebrow={c.blog.eyebrow}
+  heading={c.blog.heading}
+  subheading={c.blog.subheading}
+/>
 
 <!-- ======================= CONTACT ======================= -->
 <section id="contact" class="bg-white py-20 lg:py-28">

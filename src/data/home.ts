@@ -56,6 +56,11 @@ export interface HomeContent {
     subheading: string;
     items: { name: string; tag: string; desc: string; href: string; cta: string }[];
   };
+  blog: {
+    eyebrow: string;
+    heading: string;
+    subheading: string;
+  };
   contact: {
     eyebrow: string;
     heading: string;
@@ -189,6 +194,12 @@ export const homeContent: Record<Lang, HomeContent> = {
         },
       ],
     },
+    blog: {
+      eyebrow: 'Le blog',
+      heading: 'Nos derniers articles',
+      subheading:
+        'Guides pratiques et analyses sur la caisse, le mobile money, le développement d’applications et la transformation numérique.',
+    },
     contact: {
       eyebrow: 'Contact',
       heading: 'Discutons de votre projet',
@@ -320,6 +331,12 @@ export const homeContent: Record<Lang, HomeContent> = {
           cta: 'Visit the site',
         },
       ],
+    },
+    blog: {
+      eyebrow: 'The blog',
+      heading: 'Our latest articles',
+      subheading:
+        'Practical guides and analysis on point of sale, mobile money, app development and digital transformation.',
     },
     contact: {
       eyebrow: 'Contact',
