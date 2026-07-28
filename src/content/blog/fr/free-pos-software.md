@@ -3,7 +3,8 @@ title: "Logiciel de caisse gratuit : comment bien choisir en 2026"
 description: "Le « gratuit » cache souvent 2 à 4 % de frais par transaction. Critères, frais cachés, conformité NF525 et atouts d'une vraie caisse gratuite en 2026."
 pubDate: 2026-05-20
 lang: "fr"
-author: "DIGABLO"
+author: "redaction"
+altSlug: "free-pos-software"
 tags: ["digabloPos", "Caisse", "Commerce", "Mobile Money", "NF525"]
 ---
 
@@ -27,14 +28,14 @@ Quelques chiffres pour fixer les idées :
 | Élément | Affiché « gratuit » | Coût réel possible |
 |---|---|---|
 | Logiciel de caisse | 0 € / mois | Souvent vraiment gratuit |
-| Paiement par carte | — | **1,7 % à 3,5 %** par transaction |
-| Gestion des stocks avancée | — | Jusqu'à **25 $/mois** en add-on (ex. Loyverse) |
-| Gestion des employés | — | Jusqu'à **25 $/mois** par boutique |
-| Historique des ventes complet | — | **5 $/mois** ou plus |
-| Multi-boutiques / premium | — | À partir de **9,90 €/mois** (ex. Hiboutik) |
+| Paiement par carte | Non annoncé | **1,7 % à 3,5 %** par transaction |
+| Gestion des stocks avancée | Non annoncé | Jusqu'à **25 $/mois** en add-on (ex. Loyverse) |
+| Gestion des employés | Non annoncé | Jusqu'à **25 $/mois** par boutique |
+| Historique des ventes complet | Non annoncé | **5 $/mois** ou plus |
+| Multi-boutiques / premium | Non annoncé | À partir de **9,90 €/mois** (ex. Hiboutik) |
 | Export de vos données | Parfois bloqué | Verrouillage = coût de migration |
 
-La leçon : faites le calcul **sur votre volume de ventes annuel**. À 3 % de frais, 100 000 € de chiffre d'affaires annuel représentent **3 000 €** partis en commissions — bien plus que n'importe quel abonnement.
+La leçon : faites le calcul **sur votre volume de ventes annuel**. À 3 % de frais, 100 000 € de chiffre d'affaires annuel représentent **3 000 €** partis en commissions, bien plus que n'importe quel abonnement.
 
 ## Critère n°1 : le mode hors ligne n'est pas une option
 
@@ -54,15 +55,15 @@ L'ampleur du phénomène est colossale. En 2024, l'Afrique comptait **178 servic
 - **Airtel Money** atteignait environ **193 milliards de dollars** de valeur annualisée mi-2025, selon le [Mobile Ecosystem Forum](https://mobileecosystemforum.com/2026/05/19/airtel-money-africa-unit-closer-to-mobile-money-landmark-ipo/).
 - **M-Pesa** comptait **35,82 millions d'utilisateurs actifs mensuels** au Kenya pour l'exercice clos en mars 2025, selon [Africa Tech Business](https://www.africatechbusiness.com/posts/m-pesa-vs-momo-vs-airtel-money-which-dominates).
 
-Et la prochaine décennie de croissance sera portée par les **paiements marchands**, comme le note [Tech In Africa](https://www.techinafrica.com/mobile-money-trends-in-african-marketplaces-2025/). Si votre caisse n'intègre pas le mobile money **nativement**, vous perdez du temps au comptoir — et parfois des ventes.
+Et la prochaine décennie de croissance sera portée par les **paiements marchands**, comme le note [Tech In Africa](https://www.techinafrica.com/mobile-money-trends-in-african-marketplaces-2025/). Si votre caisse n'intègre pas le mobile money **nativement**, vous perdez du temps au comptoir, et parfois des ventes.
 
 ## Critère n°3 : la gestion des stocks en temps réel
 
-Une caisse n'est pas qu'un tiroir-caisse numérique. Le **suivi des stocks** vous évite les ruptures, vous alerte sur les produits qui partent vite et vous aide à commander au bon moment. Attention toutefois : chez plusieurs acteurs « gratuits », seul un stock **basique** est inclus, et la gestion avancée (commandes fournisseurs, valorisation) devient un add-on payant — c'est le cas de Loyverse, comme vu plus haut.
+Une caisse n'est pas qu'un tiroir-caisse numérique. Le **suivi des stocks** vous évite les ruptures, vous alerte sur les produits qui partent vite et vous aide à commander au bon moment. Attention toutefois : chez plusieurs acteurs « gratuits », seul un stock **basique** est inclus, et la gestion avancée (commandes fournisseurs, valorisation) devient un add-on payant, c'est le cas de Loyverse, comme vu plus haut.
 
 ## Critère n°4 : des rapports qui éclairent vos décisions
 
-Chiffre d'affaires par jour, produits les plus rentables, heures de pointe : les **rapports détaillés** transforment vos ventes en décisions. Vérifiez aussi que l'**historique complet** des ventes est inclus — chez certains éditeurs, l'historique illimité est facturé séparément.
+Chiffre d'affaires par jour, produits les plus rentables, heures de pointe : les **rapports détaillés** transforment vos ventes en décisions. Vérifiez aussi que l'**historique complet** des ventes est inclus, chez certains éditeurs, l'historique illimité est facturé séparément.
 
 ## Critère n°5 : multi-appareils et synchronisation
 
@@ -72,7 +73,7 @@ Smartphone au comptoir, tablette en salle, ordinateur au bureau : votre caisse d
 
 En France, c'est un point juridique, pas un confort. Tout professionnel assujetti à la TVA qui encaisse des particuliers via un logiciel de caisse doit utiliser un système conforme à la norme **NF525** (ou certifié LNE), d'après [economie.gouv.fr](https://www.economie.gouv.fr/entreprises/gerer-son-entreprise-au-quotidien/gerer-sa-comptabilite-et-ses-demarches/ce-quil-faut-savoir-sur-la-certification-des-logiciels-de-caisse).
 
-La sanction est lourde : **7 500 € d'amende par caisse non conforme**, exigible dès le premier contrôle, avec un délai de 60 jours pour régulariser — faute de quoi l'amende est reconduite, comme le rappelle [Tactill](https://www.tactill.com/blog/loi-norme-des-caisses-2026-ce-qui-change-vraiment/).
+La sanction est lourde : **7 500 € d'amende par caisse non conforme**, exigible dès le premier contrôle, avec un délai de 60 jours pour régulariser, faute de quoi l'amende est reconduite, comme le rappelle [Tactill](https://www.tactill.com/blog/loi-norme-des-caisses-2026-ce-qui-change-vraiment/).
 
 **Nouveauté 2026 à connaître :** la loi de finances pour 2026, adoptée le 19 février 2026, **rétablit l'auto-certification** : les éditeurs peuvent à nouveau prouver la conformité par une **attestation individuelle**, sans certification par organisme tiers obligatoire, selon [Tactill](https://www.tactill.com/blog/loi-norme-des-caisses-2026-ce-qui-change-vraiment/). Concrètement, exigez de votre éditeur une **attestation de conformité** en bonne et due forme : c'est elle qui vous protège en cas de contrôle.
 
@@ -99,19 +100,19 @@ C'est exactement pour répondre à ces critères que nous avons conçu **[digabl
 - **Multi-appareils** : smartphone, tablette ou ordinateur, mêmes données synchronisées.
 - **Certifié** : conforme aux exigences applicables, pour encaisser l'esprit tranquille.
 
-> Encaissez, gérez vos stocks et pilotez votre activité depuis votre smartphone, votre tablette ou votre ordinateur — gratuitement, et même hors connexion.
+> Encaissez, gérez vos stocks et pilotez votre activité depuis votre smartphone, votre tablette ou votre ordinateur, gratuitement, et même hors connexion.
 
 Vous hésitez encore entre plusieurs solutions ? [Parlons de votre projet](/#contact) : on vous aide à choisir la configuration adaptée à votre commerce, et à éviter les frais cachés.
 
 ## Sources
 
-- [Square Fees Explained 2026 — Swipesum](https://www.swipesum.com/insights/square-fees-explained-understanding-your-payment-costs)
-- [Loyverse POS Review 2026 — POS USA](https://www.posusa.com/loyverse-pos-review/)
-- [Hiboutik Pricing & Features — SoftwareSuggest](https://www.softwaresuggest.com/hiboutik)
-- [The 3 best free POS software systems — Startups.co.uk](https://startups.co.uk/payment-processing/best-free-pos-software/)
-- [The True Cost of POS Downtime — Jumpmind](https://www.jumpmind.com/blog/retail-trends/the-true-cost-of-pos-downtime-and-how-to-prevent-it/)
-- [Mobile Money Trends in African Marketplaces 2025 — Tech In Africa](https://www.techinafrica.com/mobile-money-trends-in-african-marketplaces-2025/)
-- [Airtel Money closer to landmark IPO — Mobile Ecosystem Forum](https://mobileecosystemforum.com/2026/05/19/airtel-money-africa-unit-closer-to-mobile-money-landmark-ipo/)
-- [M-Pesa vs MoMo vs Airtel Money — Africa Tech Business](https://www.africatechbusiness.com/posts/m-pesa-vs-momo-vs-airtel-money-which-dominates)
-- [Certification des logiciels de caisse — economie.gouv.fr](https://www.economie.gouv.fr/entreprises/gerer-son-entreprise-au-quotidien/gerer-sa-comptabilite-et-ses-demarches/ce-quil-faut-savoir-sur-la-certification-des-logiciels-de-caisse)
-- [Loi norme des caisses 2026 — Tactill](https://www.tactill.com/blog/loi-norme-des-caisses-2026-ce-qui-change-vraiment/)
+- [Square Fees Explained 2026, Swipesum](https://www.swipesum.com/insights/square-fees-explained-understanding-your-payment-costs)
+- [Loyverse POS Review 2026, POS USA](https://www.posusa.com/loyverse-pos-review/)
+- [Hiboutik Pricing & Features, SoftwareSuggest](https://www.softwaresuggest.com/hiboutik)
+- [The 3 best free POS software systems, Startups.co.uk](https://startups.co.uk/payment-processing/best-free-pos-software/)
+- [The True Cost of POS Downtime, Jumpmind](https://www.jumpmind.com/blog/retail-trends/the-true-cost-of-pos-downtime-and-how-to-prevent-it/)
+- [Mobile Money Trends in African Marketplaces 2025, Tech In Africa](https://www.techinafrica.com/mobile-money-trends-in-african-marketplaces-2025/)
+- [Airtel Money closer to landmark IPO, Mobile Ecosystem Forum](https://mobileecosystemforum.com/2026/05/19/airtel-money-africa-unit-closer-to-mobile-money-landmark-ipo/)
+- [M-Pesa vs MoMo vs Airtel Money, Africa Tech Business](https://www.africatechbusiness.com/posts/m-pesa-vs-momo-vs-airtel-money-which-dominates)
+- [Certification des logiciels de caisse, economie.gouv.fr](https://www.economie.gouv.fr/entreprises/gerer-son-entreprise-au-quotidien/gerer-sa-comptabilite-et-ses-demarches/ce-quil-faut-savoir-sur-la-certification-des-logiciels-de-caisse)
+- [Loi norme des caisses 2026, Tactill](https://www.tactill.com/blog/loi-norme-des-caisses-2026-ce-qui-change-vraiment/)

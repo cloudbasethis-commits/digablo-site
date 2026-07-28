@@ -3,7 +3,8 @@ title: "Restaurant POS software: the 2026 guide"
 description: "Table service, kitchen routing, split bills, compliance: the features that actually matter in a restaurant POS, and the ones you are being upsold for nothing."
 pubDate: 2026-07-15
 lang: "en"
-author: "DIGABLO"
+author: "redaction"
+altSlug: "restaurant-pos-guide"
 tags: ["Restaurant", "digabloPos", "POS", "Hospitality", "Compliance"]
 faq:
   - question: "What is the difference between a restaurant POS and a retail POS?"
@@ -109,5 +110,5 @@ Opening a restaurant or replacing your register? [Let's talk about your project]
 
 ## Sources
 
-- [Certification des logiciels de caisse — economie.gouv.fr](https://www.economie.gouv.fr/entreprises/gerer-son-entreprise-au-quotidien/gerer-sa-comptabilite-et-ses-demarches/ce-quil-faut-savoir-sur-la-certification-des-logiciels-de-caisse)
-- [The True Cost of POS Downtime — Jumpmind](https://www.jumpmind.com/blog/retail-trends/the-true-cost-of-pos-downtime-and-how-to-prevent-it/)
+- [Certification des logiciels de caisse, economie.gouv.fr](https://www.economie.gouv.fr/entreprises/gerer-son-entreprise-au-quotidien/gerer-sa-comptabilite-et-ses-demarches/ce-quil-faut-savoir-sur-la-certification-des-logiciels-de-caisse)
+- [The True Cost of POS Downtime, Jumpmind](https://www.jumpmind.com/blog/retail-trends/the-true-cost-of-pos-downtime-and-how-to-prevent-it/)

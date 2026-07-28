@@ -3,7 +3,8 @@ title: "Mobile money in DR Congo: which operator to accept?"
 description: "Market shares, fees, reconciliation: what a Congolese merchant needs to know to accept mobile money without losing money at the counter."
 pubDate: 2026-07-20
 lang: "en"
-author: "DIGABLO"
+author: "redaction"
+altSlug: "mobile-money-rdc-guide"
 tags: ["Mobile Money", "DR Congo", "digabloPos", "M-Pesa", "Airtel Money"]
 faq:
   - question: "Which mobile money operator should a merchant accept in DR Congo?"
@@ -80,7 +81,7 @@ That last point deserves a word. Charging a surcharge to customers who pay by mo
 
 A register that demands a permanent connection is unusable across much of the country.
 
-Power cuts, irregular mobile coverage, wifi that drops: in that context offline mode is not insurance, it is **the normal operating mode**. We explain the three levels of "offline" — and why two of them are useless — in our article on [offline POS software](/en/blog/offline-pos-software/).
+Power cuts, irregular mobile coverage, wifi that drops: in that context offline mode is not insurance, it is **the normal operating mode**. We explain the three levels of "offline", and why two of them are useless, in our article on [offline POS software](/en/blog/offline-pos-software/).
 
 ## Our approach
 
@@ -96,6 +97,6 @@ Want to connect all three operators to your register? [Let's talk about your pro
 
 ## Sources
 
-- [Mobile Money: with 194.8 million dollars of revenue in 2025, Airtel Money closes on M-Pesa in DR Congo — Bankable](https://bankable.africa/en/numerique/1205-2922-mobile-money-avec-194-8-millions-de-revenus-en-2025-airtel-money-talonne-m-pesa-en-rdc)
-- [M-Pesa vs Airtel Money, the millions of dollars ARPTC pretends to ignore — Ouragan](http://www.ouragan.cd/2026/05/m-pesa-vs-airtel-money-ces-millions-us-que-larptc-feint-dignorer)
-- [Mobile money surpasses two billion registered accounts — GSMA](https://www.gsma.com/newsroom/press-release/mobile-money-surpasses-two-billion-registered-accounts-and-over-half-a-billion-monthly-active-users-globally/)
+- [Mobile Money: with 194.8 million dollars of revenue in 2025, Airtel Money closes on M-Pesa in DR Congo, Bankable](https://bankable.africa/en/numerique/1205-2922-mobile-money-avec-194-8-millions-de-revenus-en-2025-airtel-money-talonne-m-pesa-en-rdc)
+- [M-Pesa vs Airtel Money, the millions of dollars ARPTC pretends to ignore, Ouragan](http://www.ouragan.cd/2026/05/m-pesa-vs-airtel-money-ces-millions-us-que-larptc-feint-dignorer)
+- [Mobile money surpasses two billion registered accounts, GSMA](https://www.gsma.com/newsroom/press-release/mobile-money-surpasses-two-billion-registered-accounts-and-over-half-a-billion-monthly-active-users-globally/)

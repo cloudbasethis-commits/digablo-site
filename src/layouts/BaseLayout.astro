@@ -15,8 +15,13 @@ interface Props {
   type?: 'website' | 'article';
   /** Empêcher l'indexation (pages utilitaires). */
   noindex?: boolean;
-  /** Override des URL alternées (hreflang) quand les slugs diffèrent par langue. */
-  alternates?: { fr: string; en: string };
+  /**
+   * Override des URL alternées (hreflang) quand les slugs diffèrent par langue.
+   * `null` = la page n'a pas d'équivalent dans l'autre langue : aucune balise
+   * alternate n'est émise (pointer vers une page inexistante fait plus de mal
+   * que de ne rien déclarer).
+   */
+  alternates?: { fr: string; en: string } | null;
   /** Dates ISO pour les balises OpenGraph d'article. */
   publishedTime?: string;
   modifiedTime?: string;
@@ -44,6 +49,7 @@ const ogLocale = lang === 'fr' ? 'fr_FR' : 'en_US';
 const withTrailingSlash = (path: string) => (path.endsWith('/') ? path : `${path}/`);
 
 const canonical = new URL(withTrailingSlash(Astro.url.pathname), Astro.site).href;
+const hasAlternates = alternates !== null;
 const frUrl = new URL(withTrailingSlash(alternates ? alternates.fr : alternatePath(Astro.url.pathname, 'fr')), Astro.site).href;
 const enUrl = new URL(withTrailingSlash(alternates ? alternates.en : alternatePath(Astro.url.pathname, 'en')), Astro.site).href;
 const ogImage = new URL(image, Astro.site).href;
@@ -107,9 +113,15 @@ const orgJsonLd = {
     <link rel="canonical" href={canonical} />
 
     <!-- Alternances de langue (hreflang) -->
-    <link rel="alternate" hreflang="fr-FR" href={frUrl} />
-    <link rel="alternate" hreflang="en" href={enUrl} />
-    <link rel="alternate" hreflang="x-default" href={frUrl} />
+    {
+      hasAlternates && (
+        <>
+          <link rel="alternate" hreflang="fr-FR" href={frUrl} />
+          <link rel="alternate" hreflang="en" href={enUrl} />
+          <link rel="alternate" hreflang="x-default" href={frUrl} />
+        </>
+      )
+    }
 
     <!-- OpenGraph -->
     <meta property="og:type" content={type} />

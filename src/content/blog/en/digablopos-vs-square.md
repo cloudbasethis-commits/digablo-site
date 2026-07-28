@@ -3,7 +3,8 @@ title: "digabloPos vs Square: the right choice for your market"
 description: "Square or digabloPos? A sourced comparison: covered countries, 2.6% fees, mobile money and offline. See where digabloPos wins for you."
 pubDate: 2026-02-18
 lang: "en"
-author: "DIGABLO"
+author: "redaction"
+altSlug: "digablopos-vs-square"
 tags: ["digabloPos", "Comparison", "POS", "Mobile Money", "Square"]
 ---
 
@@ -46,7 +47,7 @@ Where Square often assumes a stable connection and card payments, digabloPos sta
 | Card payment acceptance | 8 countries (US, CA, AU, JP, UK, IE, FR, ES) | Depends on local context |
 | Dedicated hardware | 4 countries (US, CA, UK, AU) | None required: existing devices |
 | Mandatory subscription | No (free plan) | No |
-| Card transaction fee | 2.6% + $0.15 (in-person) | — |
+| Card transaction fee | 2.6% + $0.15 (in-person) | Not advertised |
 | Local mobile money | Not supported | M-Pesa, Orange Money, Airtel Money |
 | Offline mode | Limited | Built to last |
 | Inventory and reports | Yes | Yes |
@@ -60,16 +61,16 @@ In many regions, asking a customer to pay by card is effectively turning down a 
 The breakdown by provider is just as telling:
 
 - **M-Pesa** processes over **$50 billion** in transactions per year and serves **31 million active users**. In Kenya, mobile money penetration exceeds **82% of the adult population** ([Ecofin Agency](https://www.ecofinagency.com/finance/0904-46604-mobile-money-transactions-in-africa-surge-15-in-2024-gsma)).
-- **Orange Money** claims more than **100 million accounts** and around 40 to 44 million monthly active users, for nearly **$190 billion** in volume in 2024 ([Orange Money – Wikipedia](https://en.wikipedia.org/wiki/Orange_Money)).
+- **Orange Money** claims more than **100 million accounts** and around 40 to 44 million monthly active users, for nearly **$190 billion** in volume in 2024 ([Orange Money, Wikipedia](https://en.wikipedia.org/wiki/Orange_Money)).
 - **Airtel Money** has over **54 million users** and a network of **1.7 million active agents** ([Mobile Ecosystem Forum](https://mobileecosystemforum.com/2026/05/19/airtel-money-africa-unit-closer-to-mobile-money-landmark-ipo/)).
 
-A register that does not support these payment methods forces you into parallel workarounds: take payment in the operator's app, then re-enter it manually in the register — a source of errors and wasted time. digabloPos takes **M-Pesa, Orange Money and Airtel Money payments straight from the register**, along with inventory tracking and related reports. That is a concrete advantage where Square is not present at all.
+A register that does not support these payment methods forces you into parallel workarounds: take payment in the operator's app, then re-enter it manually in the register, a source of errors and wasted time. digabloPos takes **M-Pesa, Orange Money and Airtel Money payments straight from the register**, along with inventory tracking and related reports. That is a concrete advantage where Square is not present at all.
 
 ## Offline reliability you can count on
 
 Square's strength assumes a stable connection and dependable card networks. That is a reasonable assumption in some markets and an optimistic one in others. A storm, a power cut, or simply a busy cell tower should not stop you from selling.
 
-digabloPos was built so that the register keeps working **offline**, then syncs cleanly when the network returns. No frozen checkout, no lost transactions, no customers left waiting. For neighborhood shops, markets and businesses far from fiber connections, this resilience is not a luxury — it is the difference between making the sale and losing it.
+digabloPos was built so that the register keeps working **offline**, then syncs cleanly when the network returns. No frozen checkout, no lost transactions, no customers left waiting. For neighborhood shops, markets and businesses far from fiber connections, this resilience is not a luxury, it is the difference between making the sale and losing it.
 
 ## Hardware: use what you already own
 
@@ -97,13 +98,13 @@ Want to know which one fits your business? [Let's talk](/en/#contact) and try [d
 
 ## Sources
 
-- [Square Support – International availability](https://squareup.com/help/gb/en/article/4956-international-availability)
-- [Square – Square Point of Sale now available worldwide](https://squareup.com/us/en/the-bottom-line/selling-anywhere/square-register-app-now-available-worldwide)
-- [Square Community – Square Terminal countries](https://community.squareup.com/t5/General-Discussion/In-what-countries-can-the-Square-Terminal-be-used/td-p/151602)
-- [Square – Free POS with no monthly fees](https://squareup.com/us/en/the-bottom-line/operating-your-business/free-pos-software)
-- [NerdWallet – Square fees 2026](https://www.nerdwallet.com/business/software/learn/square-fees)
-- [Merchant Insiders – Square pricing and rates](https://merchantinsiders.com/blogs/square-fees/)
-- [Merchant Maverick – Square free version review](https://www.merchantmaverick.com/reviews/square-pos-review/)
-- [Ecofin Agency / GSMA – Mobile money in Africa 2024](https://www.ecofinagency.com/finance/0904-46604-mobile-money-transactions-in-africa-surge-15-in-2024-gsma)
-- [Wikipedia – Orange Money](https://en.wikipedia.org/wiki/Orange_Money)
-- [Mobile Ecosystem Forum – Airtel Money](https://mobileecosystemforum.com/2026/05/19/airtel-money-africa-unit-closer-to-mobile-money-landmark-ipo/)
+- [Square Support, International availability](https://squareup.com/help/gb/en/article/4956-international-availability)
+- [Square, Square Point of Sale now available worldwide](https://squareup.com/us/en/the-bottom-line/selling-anywhere/square-register-app-now-available-worldwide)
+- [Square Community, Square Terminal countries](https://community.squareup.com/t5/General-Discussion/In-what-countries-can-the-Square-Terminal-be-used/td-p/151602)
+- [Square, Free POS with no monthly fees](https://squareup.com/us/en/the-bottom-line/operating-your-business/free-pos-software)
+- [NerdWallet, Square fees 2026](https://www.nerdwallet.com/business/software/learn/square-fees)
+- [Merchant Insiders, Square pricing and rates](https://merchantinsiders.com/blogs/square-fees/)
+- [Merchant Maverick, Square free version review](https://www.merchantmaverick.com/reviews/square-pos-review/)
+- [Ecofin Agency / GSMA, Mobile money in Africa 2024](https://www.ecofinagency.com/finance/0904-46604-mobile-money-transactions-in-africa-surge-15-in-2024-gsma)
+- [Wikipedia, Orange Money](https://en.wikipedia.org/wiki/Orange_Money)
+- [Mobile Ecosystem Forum, Airtel Money](https://mobileecosystemforum.com/2026/05/19/airtel-money-africa-unit-closer-to-mobile-money-landmark-ipo/)

@@ -3,7 +3,8 @@ title: "Mobile money en RDC : quel opérateur accepter ?"
 description: "Parts de marché, frais, réconciliation : ce qu'un commerçant congolais doit savoir pour encaisser en mobile money sans perdre d'argent au comptoir."
 pubDate: 2026-07-20
 lang: "fr"
-author: "DIGABLO"
+author: "redaction"
+altSlug: "mobile-money-rdc-guide"
 tags: ["Mobile Money", "RDC", "digabloPos", "M-Pesa", "Airtel Money"]
 faq:
   - question: "Quel opérateur mobile money faut-il accepter en RDC ?"
@@ -80,7 +81,7 @@ Ce dernier point mérite un mot. Facturer un supplément au client qui paie en m
 
 Une caisse qui exige une connexion permanente est inutilisable dans une bonne partie du pays.
 
-Coupures de courant, réseau mobile irrégulier, wifi qui décroche : dans ce contexte, le mode hors ligne n'est pas une assurance, c'est **le mode de fonctionnement normal**. Nous expliquons les trois niveaux de « hors ligne » — et pourquoi deux d'entre eux ne servent à rien — dans notre article sur les [logiciels de caisse hors ligne](/blog/offline-pos-software/).
+Coupures de courant, réseau mobile irrégulier, wifi qui décroche : dans ce contexte, le mode hors ligne n'est pas une assurance, c'est **le mode de fonctionnement normal**. Nous expliquons les trois niveaux de « hors ligne », et pourquoi deux d'entre eux ne servent à rien, dans notre article sur les [logiciels de caisse hors ligne](/blog/offline-pos-software/).
 
 ## Notre approche
 
@@ -96,6 +97,6 @@ Vous voulez brancher les trois opérateurs sur votre caisse ? [Parlons de votre 
 
 ## Sources
 
-- [Mobile Money : avec 194,8 millions $ de revenus en 2025, Airtel Money talonne M-Pesa en RDC — Bankable](https://bankable.africa/en/numerique/1205-2922-mobile-money-avec-194-8-millions-de-revenus-en-2025-airtel-money-talonne-m-pesa-en-rdc)
-- [M-Pesa vs Airtel Money, ces millions $US que l'ARPTC feint d'ignorer — Ouragan](http://www.ouragan.cd/2026/05/m-pesa-vs-airtel-money-ces-millions-us-que-larptc-feint-dignorer)
-- [Mobile money surpasses two billion registered accounts — GSMA](https://www.gsma.com/newsroom/press-release/mobile-money-surpasses-two-billion-registered-accounts-and-over-half-a-billion-monthly-active-users-globally/)
+- [Mobile Money : avec 194,8 millions $ de revenus en 2025, Airtel Money talonne M-Pesa en RDC, Bankable](https://bankable.africa/en/numerique/1205-2922-mobile-money-avec-194-8-millions-de-revenus-en-2025-airtel-money-talonne-m-pesa-en-rdc)
+- [M-Pesa vs Airtel Money, ces millions $US que l'ARPTC feint d'ignorer, Ouragan](http://www.ouragan.cd/2026/05/m-pesa-vs-airtel-money-ces-millions-us-que-larptc-feint-dignorer)
+- [Mobile money surpasses two billion registered accounts, GSMA](https://www.gsma.com/newsroom/press-release/mobile-money-surpasses-two-billion-registered-accounts-and-over-half-a-billion-monthly-active-users-globally/)

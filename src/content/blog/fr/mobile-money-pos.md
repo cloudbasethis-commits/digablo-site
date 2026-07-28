@@ -3,7 +3,8 @@ title: "Mobile money en caisse : pourquoi c'est devenu essentiel"
 description: "Mobile money en caisse : 2,1 milliards de comptes, 1 680 Md$ de transactions. Pourquoi l'intégrer à votre caisse et comment digabloPos le fait nativement."
 pubDate: 2026-04-28
 lang: "fr"
-author: "DIGABLO"
+author: "redaction"
+altSlug: "mobile-money-pos"
 tags: ["Mobile Money", "digabloPos", "Paiement", "M-Pesa", "Afrique"]
 ---
 
@@ -17,7 +18,7 @@ Surtout, ce n'est plus un phénomène marginal en valeur. En 2024, **environ 108
 
 L'Afrique subsaharienne est au cœur de cette dynamique. La région concentre à elle seule **1,1 milliard de comptes enregistrés, soit 53 % du total mondial**, et traite **65 % de la valeur mondiale des transactions, soit 1 105 milliards de dollars** ([Connecting Africa / GSMA](https://www.connectingafrica.com/mobile-money/sub-saharan-africa-maintains-mobile-money-lead-gsma)).
 
-Le mouvement est confirmé côté inclusion financière. D'après le *Global Findex* de la Banque mondiale, **40 % des adultes d'Afrique subsaharienne possédaient un compte mobile money en 2024 — le taux le plus élevé de toutes les régions du monde** — et 20 % s'appuient uniquement sur un compte mobile money, sans compte bancaire ([Banque mondiale, Global Findex](https://www.worldbank.org/en/publication/globalfindex/brief/financial-inclusion-in-sub-saharan-africa-overview)).
+Le mouvement est confirmé côté inclusion financière. D'après le *Global Findex* de la Banque mondiale, **40 % des adultes d'Afrique subsaharienne possédaient un compte mobile money en 2024, le taux le plus élevé de toutes les régions du monde**, et 20 % s'appuient uniquement sur un compte mobile money, sans compte bancaire ([Banque mondiale, Global Findex](https://www.worldbank.org/en/publication/globalfindex/brief/financial-inclusion-in-sub-saharan-africa-overview)).
 
 > Quand 40 % de vos clients disposent d'un portefeuille mobile et que beaucoup n'ont *que* cela pour payer, ne pas accepter le mobile money revient à fermer une partie de votre caisse.
 
@@ -27,7 +28,7 @@ Derrière le terme « mobile money » se cachent quelques acteurs dominants, que
 
 | Opérateur | Utilisateurs / comptes | Volume de transactions | Couverture |
 |---|---|---|---|
-| **M-Pesa** | 34 M de clients actifs au Kenya (nov. 2024), 66,2 M tous marchés confondus | — | Kenya, Tanzanie, RDC, etc. |
+| **M-Pesa** | 34 M de clients actifs au Kenya (nov. 2024), 66,2 M tous marchés confondus | Non annoncé | Kenya, Tanzanie, RDC, etc. |
 | **Orange Money** | ~9 milliards de transactions en 2024 | **164 milliards d'euros** transférés en 2024 | 17 pays (Afrique & Moyen-Orient) |
 | **Airtel Money** | ~38 millions de clients (2024) | ~112 milliards de dollars (2024) | 14 pays |
 
@@ -49,7 +50,7 @@ Intégrer le mobile money n'est pas qu'une question de confort client. C'est un 
 
 ## Le problème de la ressaisie manuelle
 
-Beaucoup de commerçants « acceptent » le mobile money… mais en dehors de leur caisse. Le client paie sur le téléphone du commerçant, puis ce dernier ressaisit manuellement le montant dans son logiciel — quand il ne l'oublie pas. Cette double saisie est l'une des sources d'erreurs les plus coûteuses en commerce de détail.
+Beaucoup de commerçants « acceptent » le mobile money… mais en dehors de leur caisse. Le client paie sur le téléphone du commerçant, puis ce dernier ressaisit manuellement le montant dans son logiciel, quand il ne l'oublie pas. Cette double saisie est l'une des sources d'erreurs les plus coûteuses en commerce de détail.
 
 Comparons les deux approches :
 
@@ -72,7 +73,7 @@ Le mobile money ne tient sa promesse que s'il est **intégré directement à la 
 
 ## L'intégration technique : l'exemple de l'API Daraja
 
-Encaisser le mobile money proprement repose sur une intégration logicielle, pas sur une saisie à la main. Safaricom expose par exemple son **API Daraja**, qui permet à une caisse de déclencher un paiement M-Pesa directement depuis le point de vente, via le **STK Push** (aussi appelé *Lipa na M-Pesa Online*) : le client reçoit une invite sur son téléphone, valide avec son code, et la caisse reçoit la confirmation en retour ([Safaricom — Daraja Developer Portal](https://developer.safaricom.co.ke/)).
+Encaisser le mobile money proprement repose sur une intégration logicielle, pas sur une saisie à la main. Safaricom expose par exemple son **API Daraja**, qui permet à une caisse de déclencher un paiement M-Pesa directement depuis le point de vente, via le **STK Push** (aussi appelé *Lipa na M-Pesa Online*) : le client reçoit une invite sur son téléphone, valide avec son code, et la caisse reçoit la confirmation en retour ([Safaricom, Daraja Developer Portal](https://developer.safaricom.co.ke/)).
 
 C'est ce type de connexion (STK Push, C2B, B2C) qui transforme un encaissement « à côté » en une vente confirmée, datée et automatiquement rattachée au bon produit. C'est exactement le travail d'intégration que digabloPos prend en charge pour vous.
 
@@ -106,19 +107,19 @@ L'autre force de digabloPos, c'est son modèle : **gratuit pour démarrer, certi
 
 ## En résumé
 
-Avec **2,1 milliards de comptes**, plus de **1 680 milliards de dollars** échangés en 2024 et **40 % des adultes équipés** en Afrique subsaharienne, le mobile money n'est plus une option pour les commerçants des marchés où il s'est imposé. Il faut l'accepter — et bien l'accepter, c'est-à-dire **directement en caisse**, avec mise à jour des stocks et rapports fiables. C'est exactement ce que propose digabloPos, gratuitement et même hors ligne.
+Avec **2,1 milliards de comptes**, plus de **1 680 milliards de dollars** échangés en 2024 et **40 % des adultes équipés** en Afrique subsaharienne, le mobile money n'est plus une option pour les commerçants des marchés où il s'est imposé. Il faut l'accepter, et bien l'accepter, c'est-à-dire **directement en caisse**, avec mise à jour des stocks et rapports fiables. C'est exactement ce que propose digabloPos, gratuitement et même hors ligne.
 
 Vous voulez encaisser le mobile money proprement, sans ressaisie ni erreurs ? [Discutons de votre projet](/#contact) et découvrez [digabloPos](https://pos.digablo.fr/) dès aujourd'hui.
 
 ## Sources
 
-- [GSMA — Mobile Money Surpasses Two Billion Registered Accounts and Over Half a Billion Monthly Active Users Globally (2025)](https://www.gsma.com/newsroom/press-release/mobile-money-surpasses-two-billion-registered-accounts-and-over-half-a-billion-monthly-active-users-globally/)
-- [GSMA / TechAfrica News — Mobile Money Hits $1.68 Trillion in Transactions in 2024](https://techafricanews.com/2025/04/08/gsma-report-mobile-money-hits-1-68-trillion-in-transactions-in-2024/)
-- [GSMA / Connecting Africa — Sub-Saharan Africa maintains mobile money lead](https://www.connectingafrica.com/mobile-money/sub-saharan-africa-maintains-mobile-money-lead-gsma)
-- [Banque mondiale — Global Findex : Financial Inclusion in Sub-Saharan Africa](https://www.worldbank.org/en/publication/globalfindex/brief/financial-inclusion-in-sub-saharan-africa-overview)
-- [Safaricom — M-PESA Hits 34 Million Customers in Kenya](https://www.safaricom.co.ke/media-center-landing/press-releases/safaricoms-m-pesa-hits-34-million-customers-in-kenya)
-- [Statista — Number of M-Pesa customers in Africa](https://www.statista.com/statistics/1139190/m-pesa-customer-numbers/)
-- [Africa Check — M-Pesa and Kenya's GDP figures](https://africacheck.org/fact-checks/blog/analysis-unverifiable-m-pesa-kenyas-famous-mobile-money-innovation-has-beautiful)
-- [We Are Tech Africa — Orange Money: 9 billion transactions, €164 billion transferred in 2024](https://www.wearetech.africa/en/fils-uk/news/orange-money-9-billion-transactions-164-billion-transferred-by-2024-in-africa)
-- [Airtel Africa — Annual Report 2024](https://airtelafricaara2024.com/media/eayp4j5w/printall_2024-05-13_081026-8c40b57f-5b54-4283-ab1e-693330d055ed.pdf)
-- [Safaricom — Daraja Developer Portal (M-Pesa API)](https://developer.safaricom.co.ke/)
+- [GSMA, Mobile Money Surpasses Two Billion Registered Accounts and Over Half a Billion Monthly Active Users Globally (2025)](https://www.gsma.com/newsroom/press-release/mobile-money-surpasses-two-billion-registered-accounts-and-over-half-a-billion-monthly-active-users-globally/)
+- [GSMA / TechAfrica News, Mobile Money Hits $1.68 Trillion in Transactions in 2024](https://techafricanews.com/2025/04/08/gsma-report-mobile-money-hits-1-68-trillion-in-transactions-in-2024/)
+- [GSMA / Connecting Africa, Sub-Saharan Africa maintains mobile money lead](https://www.connectingafrica.com/mobile-money/sub-saharan-africa-maintains-mobile-money-lead-gsma)
+- [Banque mondiale, Global Findex : Financial Inclusion in Sub-Saharan Africa](https://www.worldbank.org/en/publication/globalfindex/brief/financial-inclusion-in-sub-saharan-africa-overview)
+- [Safaricom, M-PESA Hits 34 Million Customers in Kenya](https://www.safaricom.co.ke/media-center-landing/press-releases/safaricoms-m-pesa-hits-34-million-customers-in-kenya)
+- [Statista, Number of M-Pesa customers in Africa](https://www.statista.com/statistics/1139190/m-pesa-customer-numbers/)
+- [Africa Check, M-Pesa and Kenya's GDP figures](https://africacheck.org/fact-checks/blog/analysis-unverifiable-m-pesa-kenyas-famous-mobile-money-innovation-has-beautiful)
+- [We Are Tech Africa, Orange Money: 9 billion transactions, €164 billion transferred in 2024](https://www.wearetech.africa/en/fils-uk/news/orange-money-9-billion-transactions-164-billion-transferred-by-2024-in-africa)
+- [Airtel Africa, Annual Report 2024](https://airtelafricaara2024.com/media/eayp4j5w/printall_2024-05-13_081026-8c40b57f-5b54-4283-ab1e-693330d055ed.pdf)
+- [Safaricom, Daraja Developer Portal (M-Pesa API)](https://developer.safaricom.co.ke/)

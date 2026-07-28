@@ -3,11 +3,12 @@ title: "Custom software or SaaS: how to decide"
 description: "Real five-year cost, the warning signs to watch for, and the cases where going custom is a mistake: a method for picking the right side."
 pubDate: 2026-07-20
 lang: "en"
-author: "DIGABLO"
+author: "redaction"
+altSlug: "custom-software-vs-saas"
 tags: ["Custom software", "SaaS", "SME", "Digital transformation", "Budget"]
 faq:
   - question: "What really separates custom software from SaaS?"
-    answer: "One question: who adapts to whom? Custom software fits your processes, your business rules and your vocabulary. Standardised SaaS asks you to adapt the way you work to predefined features. Everything else — price, timelines, maintenance — follows from that initial trade-off."
+    answer: "One question: who adapts to whom? Custom software fits your processes, your business rules and your vocabulary. Standardised SaaS asks you to adapt the way you work to predefined features. Everything else, price, timelines, maintenance, follows from that initial trade-off."
   - question: "Which one costs less over time?"
     answer: "It depends on user count and time horizon. SaaS has a low entry cost but accumulates: 20 users at 150 dollars per month is 180,000 dollars over five years. Custom development costs 40,000 to 80,000 dollars upfront plus 5,000 to 10,000 dollars of annual maintenance, so 65,000 to 130,000 dollars over the same period. The tipping point generally sits around 15 to 20 users on a five-year horizon."
   - question: "When is SaaS the right choice?"
@@ -22,7 +23,7 @@ faq:
 
 It is the most common trade-off in the projects brought to us, and the one where a wrong call costs the most: should you **subscribe to an existing tool** or **have your own built**?
 
-The question really reduces to one thing: **who adapts to whom?** Custom software fits your processes. SaaS asks you to adapt yours. Everything else — price, timelines, maintenance — follows from that.
+The question really reduces to one thing: **who adapts to whom?** Custom software fits your processes. SaaS asks you to adapt yours. Everything else, price, timelines, maintenance, follows from that.
 
 ## The calculation nobody runs
 
@@ -70,7 +71,7 @@ The debate is too often framed as binary. It no longer is.
 
 **No-code or low-code** development is **three to four times faster** than classic development, at a cost **30 to 50% lower** ([Ecma-Tech](https://www.ecma-tech.com/articles/erp-saas-sur-mesure-pme-mauvais-choix)).
 
-For an SME needing a specific business tool without extreme technical complexity — case tracking, field service management, approval workflows — it is currently the most balanced compromise. You get your business rules without paying for full custom development.
+For an SME needing a specific business tool without extreme technical complexity, case tracking, field service management, approval workflows, it is currently the most balanced compromise. You get your business rules without paying for full custom development.
 
 Its limits show up with volume, complex integrations and performance requirements. But they arrive later than people expect.
 
@@ -100,6 +101,6 @@ Torn between subscribing and building? [Let's talk about your project](/en/#cont
 
 ## Sources
 
-- [Custom software or SaaS: which choice for an SME? — CyberPerformance](https://cyberperformance.ca/logiciel-sur-mesure-ou-saas-quel-choix-pour-une-pme/)
-- [ERP, SaaS or custom: why 60% of SMEs make the wrong choice — Ecma-Tech](https://www.ecma-tech.com/articles/erp-saas-sur-mesure-pme-mauvais-choix)
-- [Custom business tool or standard SaaS: structuring SME growth — DevDev](https://www.devdev.fr/blog/outil-metier-sur-mesure-saas-pme/)
+- [Custom software or SaaS: which choice for an SME?, CyberPerformance](https://cyberperformance.ca/logiciel-sur-mesure-ou-saas-quel-choix-pour-une-pme/)
+- [ERP, SaaS or custom: why 60% of SMEs make the wrong choice, Ecma-Tech](https://www.ecma-tech.com/articles/erp-saas-sur-mesure-pme-mauvais-choix)
+- [Custom business tool or standard SaaS: structuring SME growth, DevDev](https://www.devdev.fr/blog/outil-metier-sur-mesure-saas-pme/)

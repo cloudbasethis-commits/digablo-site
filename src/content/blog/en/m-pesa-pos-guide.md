@@ -3,7 +3,8 @@ title: "Accepting M-Pesa: the complete merchant's guide"
 description: "Till number or paybill, reconciliation, POS integration: everything a merchant needs to accept M-Pesa without losing time or money at the counter."
 pubDate: 2026-07-01
 lang: "en"
-author: "DIGABLO"
+author: "redaction"
+altSlug: "m-pesa-pos-guide"
 tags: ["M-Pesa", "Mobile Money", "digabloPos", "Kenya", "Payments"]
 faq:
   - question: "Should a merchant use a till number, a paybill, or Pochi la Biashara?"
@@ -30,7 +31,7 @@ Three products coexist, and plenty of merchants use the wrong one.
 
 **Till number (Buy Goods and Services).** This is the product designed for point of sale collection. The customer enters your till number and the amount, then confirms. It is the default choice for a physical shop.
 
-**Paybill.** Built for bill payments, it requires the customer to enter an account number on top of the paybill number. That suits rent, a subscription, an identified invoice — not a counter sale, where the extra input slows the queue and generates errors.
+**Paybill.** Built for bill payments, it requires the customer to enter an account number on top of the paybill number. That suits rent, a subscription, an identified invoice, not a counter sale, where the extra input slows the queue and generates errors.
 
 **Pochi la Biashara.** The format aimed at very small traders and informal vendors, separating business money from personal money without requiring full till infrastructure. Handy to start with, limiting as soon as the business grows.
 
@@ -104,9 +105,9 @@ Want to connect M-Pesa to your register or to an existing system? [Let's talk ab
 
 ## Sources
 
-- [Safaricom's M-Pesa hits 34 million customers in Kenya — Safaricom](https://www.safaricom.co.ke/media-center-landing/press-releases/safaricoms-m-pesa-hits-34-million-customers-in-kenya)
-- [M-Pesa customer numbers — Statista](https://www.statista.com/statistics/1139190/m-pesa-customer-numbers/)
-- [Safaricom Daraja API — Safaricom Developer Portal](https://developer.safaricom.co.ke/)
-- [Orange Money: 9 billion transactions, 164 billion transferred in 2024 — We Are Tech Africa](https://www.wearetech.africa/en/fils-uk/news/orange-money-9-billion-transactions-164-billion-transferred-by-2024-in-africa)
+- [Safaricom's M-Pesa hits 34 million customers in Kenya, Safaricom](https://www.safaricom.co.ke/media-center-landing/press-releases/safaricoms-m-pesa-hits-34-million-customers-in-kenya)
+- [M-Pesa customer numbers, Statista](https://www.statista.com/statistics/1139190/m-pesa-customer-numbers/)
+- [Safaricom Daraja API, Safaricom Developer Portal](https://developer.safaricom.co.ke/)
+- [Orange Money: 9 billion transactions, 164 billion transferred in 2024, We Are Tech Africa](https://www.wearetech.africa/en/fils-uk/news/orange-money-9-billion-transactions-164-billion-transferred-by-2024-in-africa)
 - [Airtel Africa Annual Report 2024](https://airtelafricaara2024.com/media/eayp4j5w/printall_2024-05-13_081026-8c40b57f-5b54-4283-ab1e-693330d055ed.pdf)
-- [Mobile money surpasses two billion registered accounts — GSMA](https://www.gsma.com/newsroom/press-release/mobile-money-surpasses-two-billion-registered-accounts-and-over-half-a-billion-monthly-active-users-globally/)
+- [Mobile money surpasses two billion registered accounts, GSMA](https://www.gsma.com/newsroom/press-release/mobile-money-surpasses-two-billion-registered-accounts-and-over-half-a-billion-monthly-active-users-globally/)

@@ -4,6 +4,8 @@ import type { Post } from '../utils/blog';
 import { readingTime, formatDate } from '../utils/blog';
 import { useTranslations, localizePath } from '../i18n/utils';
 import type { Lang } from '../i18n/ui';
+import { resolveAuthor, authorPath } from '../data/authors';
+import { postSlug } from '../utils/blog';
 
 interface Props {
   post: Post;
@@ -11,8 +13,10 @@ interface Props {
 }
 const { post, lang } = Astro.props;
 const t = useTranslations(lang);
-const { title, description, pubDate, updatedDate, author, tags, cover, faq } = post.data;
+const { title, description, pubDate, updatedDate, author, tags, cover, faq, altSlug } = post.data;
 const coverSrc = cover ? (typeof cover === 'string' ? cover : cover.src) : undefined;
+const writer = resolveAuthor(author);
+const writerPath = authorPath(writer, lang);
 
 const SITE = 'https://digablo.fr';
 /** Même convention de « / » final que la canonique et le sitemap. */
@@ -23,6 +27,19 @@ const articleImage = new URL(coverSrc ?? '/brand/og-default.png', SITE).href;
 const published = pubDate.toISOString();
 const modified = (updatedDate ?? pubDate).toISOString();
 const blogUrl = new URL(withTrailingSlash(localizePath('/blog', lang)), SITE).href;
+const writerUrl = writerPath ? new URL(withTrailingSlash(writerPath), SITE).href : SITE;
+
+/**
+ * hreflang : seulement si l'article a un équivalent déclaré dans l'autre langue.
+ * `altSlug` porte le slug de cet équivalent, les deux versions étant rédigées
+ * séparément et n'ayant donc pas forcément le même slug.
+ */
+const slug = postSlug(post.id);
+const alternates = altSlug
+  ? lang === 'fr'
+    ? { fr: `/blog/${slug}`, en: `/en/blog/${altSlug}` }
+    : { fr: `/blog/${altSlug}`, en: `/en/blog/${slug}` }
+  : null;
 
 const articleJsonLd = {
   '@context': 'https://schema.org',
@@ -38,7 +55,13 @@ const articleJsonLd = {
   dateModified: modified,
   keywords: tags.join(', '),
   wordCount: post.body?.trim().split(/\s+/).length,
-  author: { '@type': 'Organization', name: author, url: SITE },
+  author: {
+    '@type': writer.person ? 'Person' : 'Organization',
+    name: writer.name,
+    url: writerUrl,
+    ...(writer.role[lang] ? { jobTitle: writer.role[lang] } : {}),
+    ...(writer.sameAs?.length ? { sameAs: writer.sameAs } : {}),
+  },
   publisher: {
     '@type': 'Organization',
     name: 'DIGABLO',
@@ -82,6 +105,7 @@ const faqJsonLd = faq?.length
   publishedTime={published}
   modifiedTime={modified}
   tags={tags}
+  alternates={alternates}
 >
   <article class="bg-white py-16 lg:py-20">
     <div class="mx-auto max-w-3xl px-5 lg:px-8">
@@ -99,7 +123,16 @@ const faqJsonLd = faq?.length
           {updatedDate && (
             <> · <time datetime={modified}>{t('common.updated')} {formatDate(updatedDate, lang)}</time></>
           )}
-          {' '}· {readingTime(post.body)} {t('common.minRead')} · {author}
+          {' '}· {readingTime(post.body)} {t('common.minRead')}
+        </p>
+        <p class="mt-2 text-sm text-ink-600">
+          {t('common.by')}{' '}
+          {writerPath ? (
+            <a href={writerPath} class="font-semibold text-ink-900 hover:text-brand-600">{writer.name}</a>
+          ) : (
+            <span class="font-semibold text-ink-900">{writer.name}</span>
+          )}
+          {writer.role[lang] && <span class="text-ink-500">, {writer.role[lang]}</span>}
         </p>
       </header>
 
@@ -126,6 +159,38 @@ const faqJsonLd = faq?.length
               ))}
             </dl>
           </section>
+        )
+      }
+
+      {
+        writer.bio[lang] && (
+          <aside class="mt-14 rounded-2xl border border-ink-100 bg-ink-50/50 p-6 sm:p-7">
+            <div class="flex items-start gap-4">
+              <span
+                class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-ink-950 text-sm font-bold text-white"
+                aria-hidden="true"
+              >
+                {writer.name
+                  .split(' ')
+                  .slice(0, 2)
+                  .map((w) => w[0])
+                  .join('')}
+              </span>
+              <div>
+                <p class="text-xs font-semibold tracking-wide text-brand-600 uppercase">{t('common.aboutAuthor')}</p>
+                <p class="mt-1 font-semibold text-ink-950">
+                  {writer.name}
+                  {writer.role[lang] && <span class="font-normal text-ink-500">, {writer.role[lang]}</span>}
+                </p>
+                <p class="mt-2 text-sm leading-relaxed text-ink-600">{writer.bio[lang]}</p>
+                {writerPath && (
+                  <a href={writerPath} class="mt-3 inline-block text-sm font-semibold text-brand-600 hover:text-brand-700">
+                    {t('common.authorPosts')} →
+                  </a>
+                )}
+              </div>
+            </div>
+          </aside>
         )
       }
 

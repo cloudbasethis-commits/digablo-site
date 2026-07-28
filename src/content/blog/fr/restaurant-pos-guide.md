@@ -3,7 +3,8 @@ title: "Logiciel de caisse pour restaurant : le guide 2026"
 description: "Plan de salle, envoi cuisine, additions séparées, conformité : les fonctions qui comptent vraiment dans une caisse restaurant, et celles qu'on vous vend pour rien."
 pubDate: 2026-07-15
 lang: "fr"
-author: "DIGABLO"
+author: "redaction"
+altSlug: "restaurant-pos-guide"
 tags: ["Restaurant", "digabloPos", "Caisse", "CHR", "NF525"]
 faq:
   - question: "Quelle différence entre une caisse restaurant et une caisse boutique ?"
@@ -109,5 +110,5 @@ Vous montez un restaurant ou vous changez de caisse ? [Parlons de votre projet](
 
 ## Sources
 
-- [Certification des logiciels de caisse — economie.gouv.fr](https://www.economie.gouv.fr/entreprises/gerer-son-entreprise-au-quotidien/gerer-sa-comptabilite-et-ses-demarches/ce-quil-faut-savoir-sur-la-certification-des-logiciels-de-caisse)
-- [The True Cost of POS Downtime — Jumpmind](https://www.jumpmind.com/blog/retail-trends/the-true-cost-of-pos-downtime-and-how-to-prevent-it/)
+- [Certification des logiciels de caisse, economie.gouv.fr](https://www.economie.gouv.fr/entreprises/gerer-son-entreprise-au-quotidien/gerer-sa-comptabilite-et-ses-demarches/ce-quil-faut-savoir-sur-la-certification-des-logiciels-de-caisse)
+- [The True Cost of POS Downtime, Jumpmind](https://www.jumpmind.com/blog/retail-trends/the-true-cost-of-pos-downtime-and-how-to-prevent-it/)

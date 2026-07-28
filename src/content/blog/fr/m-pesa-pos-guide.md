@@ -3,7 +3,8 @@ title: "Encaisser avec M-Pesa : le guide complet du commerçant"
 description: "Till number ou paybill, réconciliation, intégration à la caisse : tout ce qu'un commerçant doit savoir pour accepter M-Pesa sans perdre de temps ni d'argent."
 pubDate: 2026-07-01
 lang: "fr"
-author: "DIGABLO"
+author: "redaction"
+altSlug: "m-pesa-pos-guide"
 tags: ["M-Pesa", "Mobile Money", "digabloPos", "Kenya", "Paiement"]
 faq:
   - question: "Till number, paybill ou Pochi la Biashara : que choisir ?"
@@ -104,9 +105,9 @@ Vous voulez brancher M-Pesa sur votre caisse ou sur votre système existant ? [P
 
 ## Sources
 
-- [Safaricom's M-Pesa hits 34 million customers in Kenya — Safaricom](https://www.safaricom.co.ke/media-center-landing/press-releases/safaricoms-m-pesa-hits-34-million-customers-in-kenya)
-- [M-Pesa customer numbers — Statista](https://www.statista.com/statistics/1139190/m-pesa-customer-numbers/)
-- [Safaricom Daraja API — Safaricom Developer Portal](https://developer.safaricom.co.ke/)
-- [Orange Money : 9 billion transactions, 164 billion transferred in 2024 — We Are Tech Africa](https://www.wearetech.africa/en/fils-uk/news/orange-money-9-billion-transactions-164-billion-transferred-by-2024-in-africa)
+- [Safaricom's M-Pesa hits 34 million customers in Kenya, Safaricom](https://www.safaricom.co.ke/media-center-landing/press-releases/safaricoms-m-pesa-hits-34-million-customers-in-kenya)
+- [M-Pesa customer numbers, Statista](https://www.statista.com/statistics/1139190/m-pesa-customer-numbers/)
+- [Safaricom Daraja API, Safaricom Developer Portal](https://developer.safaricom.co.ke/)
+- [Orange Money : 9 billion transactions, 164 billion transferred in 2024, We Are Tech Africa](https://www.wearetech.africa/en/fils-uk/news/orange-money-9-billion-transactions-164-billion-transferred-by-2024-in-africa)
 - [Airtel Africa Annual Report 2024](https://airtelafricaara2024.com/media/eayp4j5w/printall_2024-05-13_081026-8c40b57f-5b54-4283-ab1e-693330d055ed.pdf)
-- [Mobile money surpasses two billion registered accounts — GSMA](https://www.gsma.com/newsroom/press-release/mobile-money-surpasses-two-billion-registered-accounts-and-over-half-a-billion-monthly-active-users-globally/)
+- [Mobile money surpasses two billion registered accounts, GSMA](https://www.gsma.com/newsroom/press-release/mobile-money-surpasses-two-billion-registered-accounts-and-over-half-a-billion-monthly-active-users-globally/)

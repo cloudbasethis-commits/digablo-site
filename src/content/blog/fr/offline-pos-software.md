@@ -3,7 +3,8 @@ title: "Logiciel de caisse hors ligne : pourquoi ça change tout"
 description: "Une caisse qui s'arrête quand le réseau tombe, c'est du chiffre d'affaires perdu. Comment fonctionne le mode hors ligne et pourquoi il devrait être un critère de choix."
 pubDate: 2026-06-16
 lang: "fr"
-author: "DIGABLO"
+author: "redaction"
+altSlug: "offline-pos-software"
 tags: ["Hors ligne", "digabloPos", "Caisse", "Commerce", "Résilience"]
 faq:
   - question: "Que veut vraiment dire « mode hors ligne » sur un logiciel de caisse ?"
@@ -93,5 +94,5 @@ Vous voulez vérifier si votre configuration actuelle tiendrait une coupure de d
 
 ## Sources
 
-- [The True Cost of POS Downtime — Jumpmind](https://www.jumpmind.com/blog/retail-trends/the-true-cost-of-pos-downtime-and-how-to-prevent-it/)
-- [Certification des logiciels de caisse — economie.gouv.fr](https://www.economie.gouv.fr/entreprises/gerer-son-entreprise-au-quotidien/gerer-sa-comptabilite-et-ses-demarches/ce-quil-faut-savoir-sur-la-certification-des-logiciels-de-caisse)
+- [The True Cost of POS Downtime, Jumpmind](https://www.jumpmind.com/blog/retail-trends/the-true-cost-of-pos-downtime-and-how-to-prevent-it/)
+- [Certification des logiciels de caisse, economie.gouv.fr](https://www.economie.gouv.fr/entreprises/gerer-son-entreprise-au-quotidien/gerer-sa-comptabilite-et-ses-demarches/ce-quil-faut-savoir-sur-la-certification-des-logiciels-de-caisse)

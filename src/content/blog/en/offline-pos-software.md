@@ -3,7 +3,8 @@ title: "Offline POS software: why it changes everything"
 description: "A register that dies with the connection is lost revenue. How true offline mode works, what to ask vendors, and why it belongs at the top of your criteria."
 pubDate: 2026-06-16
 lang: "en"
-author: "DIGABLO"
+author: "redaction"
+altSlug: "offline-pos-software"
 tags: ["Offline", "digabloPos", "POS", "Retail", "Resilience"]
 faq:
   - question: "What does offline mode really mean in a POS system?"
@@ -93,5 +94,5 @@ Want to check whether your current setup would survive a two-hour outage? [Let's
 
 ## Sources
 
-- [The True Cost of POS Downtime — Jumpmind](https://www.jumpmind.com/blog/retail-trends/the-true-cost-of-pos-downtime-and-how-to-prevent-it/)
-- [Certification des logiciels de caisse — economie.gouv.fr](https://www.economie.gouv.fr/entreprises/gerer-son-entreprise-au-quotidien/gerer-sa-comptabilite-et-ses-demarches/ce-quil-faut-savoir-sur-la-certification-des-logiciels-de-caisse)
+- [The True Cost of POS Downtime, Jumpmind](https://www.jumpmind.com/blog/retail-trends/the-true-cost-of-pos-downtime-and-how-to-prevent-it/)
+- [Certification des logiciels de caisse, economie.gouv.fr](https://www.economie.gouv.fr/entreprises/gerer-son-entreprise-au-quotidien/gerer-sa-comptabilite-et-ses-demarches/ce-quil-faut-savoir-sur-la-certification-des-logiciels-de-caisse)

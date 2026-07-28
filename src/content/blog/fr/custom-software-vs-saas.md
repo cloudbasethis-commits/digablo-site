@@ -3,11 +3,12 @@ title: "Logiciel sur mesure ou SaaS : comment trancher ?"
 description: "Coût réel sur 5 ans, signaux qui doivent alerter, cas où le sur mesure est une erreur : la méthode pour choisir sans se tromper de camp."
 pubDate: 2026-07-20
 lang: "fr"
-author: "DIGABLO"
+author: "redaction"
+altSlug: "custom-software-vs-saas"
 tags: ["Logiciel sur mesure", "SaaS", "PME", "Transformation digitale", "Budget"]
 faq:
   - question: "Qu'est-ce qui distingue vraiment un logiciel sur mesure d'un SaaS ?"
-    answer: "Une seule question : qui s'adapte à qui ? Un logiciel sur mesure épouse vos processus, vos règles de gestion et votre vocabulaire. Un SaaS standardisé vous demande d'adapter votre façon de travailler à des fonctionnalités prédéfinies. Tout le reste — prix, délais, maintenance — découle de cet arbitrage initial."
+    answer: "Une seule question : qui s'adapte à qui ? Un logiciel sur mesure épouse vos processus, vos règles de gestion et votre vocabulaire. Un SaaS standardisé vous demande d'adapter votre façon de travailler à des fonctionnalités prédéfinies. Tout le reste, prix, délais, maintenance, découle de cet arbitrage initial."
   - question: "Lequel coûte le moins cher sur la durée ?"
     answer: "Cela dépend du nombre d'utilisateurs et de la durée. Un SaaS a un coût d'entrée faible mais s'accumule : 20 utilisateurs à 150 $ par mois représentent 180 000 $ sur cinq ans. Un développement sur mesure coûte 40 000 à 80 000 $ au départ, plus 5 000 à 10 000 $ de maintenance annuelle, soit 65 000 à 130 000 $ sur cinq ans. Le point de bascule se situe généralement autour de 15 à 20 utilisateurs sur un horizon de cinq ans."
   - question: "Quand le SaaS est-il le bon choix ?"
@@ -22,7 +23,7 @@ faq:
 
 C'est l'arbitrage le plus fréquent dans les projets qu'on nous confie, et celui où l'erreur coûte le plus cher : faut-il **s'abonner à un logiciel existant** ou **faire développer le sien** ?
 
-La question se résume en réalité à une seule : **qui s'adapte à qui ?** Un logiciel sur mesure épouse vos processus. Un SaaS vous demande d'adapter les vôtres. Tout le reste — prix, délais, maintenance — découle de là.
+La question se résume en réalité à une seule : **qui s'adapte à qui ?** Un logiciel sur mesure épouse vos processus. Un SaaS vous demande d'adapter les vôtres. Tout le reste, prix, délais, maintenance, découle de là.
 
 ## Le calcul que personne ne fait
 
@@ -70,7 +71,7 @@ Le débat est trop souvent présenté comme binaire. Il ne l'est plus.
 
 Un développement **no-code ou low-code** est **trois à quatre fois plus rapide** qu'un développement classique, pour un **coût réduit de 30 à 50 %** ([Ecma-Tech](https://www.ecma-tech.com/articles/erp-saas-sur-mesure-pme-mauvais-choix)).
 
-Pour une PME qui a besoin d'un outil métier spécifique sans complexité technique extrême — suivi de dossiers, gestion d'interventions, workflow de validation — c'est aujourd'hui le compromis le plus équilibré. Vous obtenez vos règles de gestion sans payer le prix d'un développement complet.
+Pour une PME qui a besoin d'un outil métier spécifique sans complexité technique extrême, suivi de dossiers, gestion d'interventions, workflow de validation, c'est aujourd'hui le compromis le plus équilibré. Vous obtenez vos règles de gestion sans payer le prix d'un développement complet.
 
 Ses limites arrivent avec le volume, les intégrations complexes et les besoins de performance. Mais elles arrivent plus tard qu'on ne le croit.
 
@@ -100,6 +101,6 @@ Vous hésitez entre vous abonner et faire développer ? [Parlons de votre projet
 
 ## Sources
 
-- [Logiciel sur mesure ou SaaS : quel choix pour une PME ? — CyberPerformance](https://cyberperformance.ca/logiciel-sur-mesure-ou-saas-quel-choix-pour-une-pme/)
-- [ERP, SaaS ou sur mesure : pourquoi 60 % des PME font le mauvais choix — Ecma-Tech](https://www.ecma-tech.com/articles/erp-saas-sur-mesure-pme-mauvais-choix)
-- [Logiciel sur mesure ou SaaS standard : structurer la croissance de votre PME — DevDev](https://www.devdev.fr/blog/outil-metier-sur-mesure-saas-pme/)
+- [Logiciel sur mesure ou SaaS : quel choix pour une PME ?, CyberPerformance](https://cyberperformance.ca/logiciel-sur-mesure-ou-saas-quel-choix-pour-une-pme/)
+- [ERP, SaaS ou sur mesure : pourquoi 60 % des PME font le mauvais choix, Ecma-Tech](https://www.ecma-tech.com/articles/erp-saas-sur-mesure-pme-mauvais-choix)
+- [Logiciel sur mesure ou SaaS standard : structurer la croissance de votre PME, DevDev](https://www.devdev.fr/blog/outil-metier-sur-mesure-saas-pme/)

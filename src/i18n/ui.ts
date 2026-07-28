@@ -41,6 +41,11 @@ export const ui = {
     'common.minRead': 'min de lecture',
     'common.faq': 'Questions fréquentes',
     'common.home': 'Accueil',
+    'common.by': 'Par',
+    'common.aboutAuthor': 'À propos de l’auteur',
+    'common.authorPosts': 'Tous ses articles',
+    'common.articlesBy': 'Articles de',
+    'nav.compare': 'Comparateur',
   },
   en: {
     'nav.services': 'Services',
@@ -71,5 +76,10 @@ export const ui = {
     'common.minRead': 'min read',
     'common.faq': 'Frequently asked questions',
     'common.home': 'Home',
+    'common.by': 'By',
+    'common.aboutAuthor': 'About the author',
+    'common.authorPosts': 'All their articles',
+    'common.articlesBy': 'Articles by',
+    'nav.compare': 'Comparison',
   },
 } as const;

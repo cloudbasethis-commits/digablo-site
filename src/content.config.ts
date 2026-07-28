@@ -10,7 +10,15 @@ const blog = defineCollection({
       pubDate: z.coerce.date(),
       updatedDate: z.coerce.date().optional(),
       lang: z.enum(['fr', 'en']),
-      author: z.string().default('DIGABLO'),
+      /** Identifiant d'auteur (voir src/data/authors.ts). */
+      author: z.string().default('redaction'),
+      /**
+       * Slug de l'article équivalent dans l'autre langue, quand il existe.
+       * Les articles FR et EN sont écrits indépendamment (intentions de
+       * recherche différentes) : sans équivalent, aucun hreflang n'est émis
+       * plutôt que d'en pointer un vers une page inexistante.
+       */
+      altSlug: z.string().optional(),
       tags: z.array(z.string()).default([]),
       cover: image().optional(),
       draft: z.boolean().default(false),

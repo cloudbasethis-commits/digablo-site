@@ -3,7 +3,8 @@ title: "How much does a mobile app cost in 2026?"
 description: "Real price ranges by app type, native versus hybrid, the maintenance line nobody budgets: what you need before asking for a quote."
 pubDate: 2026-07-20
 lang: "en"
-author: "DIGABLO"
+author: "redaction"
+altSlug: "mobile-app-cost-guide"
 tags: ["Mobile app", "Budget", "Development", "SME", "Pricing"]
 faq:
   - question: "What is the average price of a mobile app in 2026?"
@@ -32,10 +33,10 @@ Price does not depend on the number of screens. It depends on the number of busi
 
 | App type | 2026 range |
 |---|---|
-| Simple / brochure | €8,000 – €20,000 |
-| MVP, working prototype | €10,000 – €40,000 |
-| Business app (e-commerce, booking) | €25,000 – €80,000 |
-| Complex (marketplace, real-time, social) | €80,000 – €150,000 + |
+| Simple / brochure | €8,000  to €20,000 |
+| MVP, working prototype | €10,000  to €40,000 |
+| Business app (e-commerce, booking) | €25,000  to €80,000 |
+| Complex (marketplace, real-time, social) | €80,000  to €150,000 + |
 
 These orders of magnitude are consistent across French market sources ([EID Lab](https://www.eid-lab.com/blog/cout-developpement-application-mobile-2026), [Yeeply](https://yeeply.com/fr/combien-ca-coute/cout-developpement-application-mobile-2026/)).
 
@@ -49,7 +50,7 @@ This is the choice with the biggest impact on your bill.
 
 **Hybrid** uses a single codebase for both systems. The bill drops by **30 to 50%** ([KBCOM](https://kb-com.fr/blog/quel-est-le-prix-dune-application-mobile-en-2026)).
 
-Native is justified for games, augmented reality, heavy video processing or advanced hardware access. For a business app — ordering, booking, tracking, management — **hybrid is the right call in the vast majority of cases**, and the quality gap perceived by users is now negligible.
+Native is justified for games, augmented reality, heavy video processing or advanced hardware access. For a business app, ordering, booking, tracking, management, **hybrid is the right call in the vast majority of cases**, and the quality gap perceived by users is now negligible.
 
 ## The cost nobody budgets: maintenance
 
@@ -99,7 +100,7 @@ Have an app project and need a reliable order of magnitude? [Let's talk about yo
 
 ## Sources
 
-- [Mobile app pricing 2026: median €30,000 — La Fabrique du Net](https://www.lafabriquedunet.fr/agences/pages/agences-application-mobile/tarifs)
-- [How much does mobile app development cost in 2026? — EID Lab](https://www.eid-lab.com/blog/cout-developpement-application-mobile-2026)
-- [Mobile app price in 2026 — KBCOM](https://kb-com.fr/blog/quel-est-le-prix-dune-application-mobile-en-2026)
-- [Mobile app development cost 2026 — Yeeply](https://yeeply.com/fr/combien-ca-coute/cout-developpement-application-mobile-2026/)
+- [Mobile app pricing 2026: median €30,000, La Fabrique du Net](https://www.lafabriquedunet.fr/agences/pages/agences-application-mobile/tarifs)
+- [How much does mobile app development cost in 2026?, EID Lab](https://www.eid-lab.com/blog/cout-developpement-application-mobile-2026)
+- [Mobile app price in 2026, KBCOM](https://kb-com.fr/blog/quel-est-le-prix-dune-application-mobile-en-2026)
+- [Mobile app development cost 2026, Yeeply](https://yeeply.com/fr/combien-ca-coute/cout-developpement-application-mobile-2026/)
