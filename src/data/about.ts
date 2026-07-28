@@ -16,7 +16,7 @@ export interface AboutContent {
 
 export const aboutContent: Record<Lang, AboutContent> = {
   fr: {
-    metaTitle: 'À propos de DIGABLO — Agence digitale internationale',
+    metaTitle: 'À propos de DIGABLO, Agence digitale internationale',
     metaDescription:
       'DIGABLO est une agence digitale internationale spécialisée dans les logiciels sur mesure, les applications, les sites web et le marketing digital. Découvrez notre histoire et notre équipe.',
     heroEyebrow: 'À propos',
@@ -27,7 +27,7 @@ export const aboutContent: Record<Lang, AboutContent> = {
       heading: 'Notre histoire',
       paragraphs: [
         'DIGABLO est née d’une conviction simple : chaque entreprise mérite des outils digitaux à la hauteur de ses ambitions, sans être freinée par la complexité ou les coûts.',
-        'Fondée en France et présente à Kinshasa, notre agence s’est construite au fil des projets, en accompagnant des entreprises de toutes tailles dans leur transformation numérique — du commerçant de quartier à l’entreprise internationale.',
+        'Fondée en France et présente à Kinshasa, notre agence s’est construite au fil des projets, en accompagnant des entreprises de toutes tailles dans leur transformation numérique, du commerçant de quartier à l’entreprise internationale.',
         'Aujourd’hui, nous servons des clients sur plusieurs continents (Europe, Afrique, Amérique du Nord, Asie) et nous éditons digabloPos, notre logiciel de caisse utilisé dans le monde entier.',
       ],
     },
@@ -51,14 +51,14 @@ export const aboutContent: Record<Lang, AboutContent> = {
       heading: 'Notre expertise',
       paragraphs: [
         'Notre équipe réunit des développeurs, designers et spécialistes du marketing capables de couvrir toute la chaîne de valeur digitale : du logiciel de gestion sur mesure à l’application mobile, du site web performant à la campagne d’acquisition.',
-        'Nous investissons en continu dans la recherche et le développement pour garder nos solutions à la pointe — et vous faire bénéficier des meilleures technologies, au juste prix.',
+        'Nous investissons en continu dans la recherche et le développement pour garder nos solutions à la pointe, et vous faire bénéficier des meilleures technologies, au juste prix.',
       ],
     },
     ctaHeading: 'Envie de travailler avec nous ?',
     ctaText: 'Parlons de votre projet et construisons ensemble le succès de demain.',
   },
   en: {
-    metaTitle: 'About DIGABLO — International digital agency',
+    metaTitle: 'About DIGABLO, International digital agency',
     metaDescription:
       'DIGABLO is an international digital agency specializing in custom software, apps, websites and digital marketing. Discover our story and our team.',
     heroEyebrow: 'About',
@@ -69,7 +69,7 @@ export const aboutContent: Record<Lang, AboutContent> = {
       heading: 'Our story',
       paragraphs: [
         'DIGABLO was born from a simple belief: every business deserves digital tools worthy of its ambitions, without being held back by complexity or cost.',
-        'Founded in France and present in Kinshasa, our agency grew project after project, supporting businesses of all sizes through their digital transformation — from the neighborhood shop to the international company.',
+        'Founded in France and present in Kinshasa, our agency grew project after project, supporting businesses of all sizes through their digital transformation, from the neighborhood shop to the international company.',
         'Today we serve clients across several continents (Europe, Africa, North America, Asia) and we build digabloPos, our point-of-sale software used worldwide.',
       ],
     },
@@ -93,7 +93,7 @@ export const aboutContent: Record<Lang, AboutContent> = {
       heading: 'Our expertise',
       paragraphs: [
         'Our team brings together developers, designers and marketing specialists able to cover the entire digital value chain: from custom management software to mobile apps, from high-performance websites to acquisition campaigns.',
-        'We invest continuously in research and development to keep our solutions on the cutting edge — and bring you the best technologies at a fair price.',
+        'We invest continuously in research and development to keep our solutions on the cutting edge, and bring you the best technologies at a fair price.',
       ],
     },
     ctaHeading: 'Want to work with us?',

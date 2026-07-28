@@ -11,7 +11,7 @@ const { author } = Astro.props;
 ---
 
 <BaseLayout
-  title={`${author.name} — ${author.role.en} | DIGABLO`}
+  title={`${author.name}, ${author.role.en} | DIGABLO`}
   description={author.bio.en.slice(0, 155)}
   alternates={{ fr: `/blog/auteur/${author.id}`, en: `/en/blog/author/${author.id}` }}
 >

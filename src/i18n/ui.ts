@@ -20,7 +20,7 @@ export const ui = {
     'nav.contact': 'Contact',
     'nav.cta': 'Démarrer un projet',
     'footer.tagline':
-      'Agence digitale internationale. Logiciels sur mesure, applications, sites web et marketing digital — au service de votre croissance.',
+      'Agence digitale internationale. Logiciels sur mesure, applications, sites web et marketing digital, au service de votre croissance.',
     'footer.services': 'Services',
     'footer.company': 'Entreprise',
     'footer.contact': 'Contact',
@@ -55,7 +55,7 @@ export const ui = {
     'nav.contact': 'Contact',
     'nav.cta': 'Start a project',
     'footer.tagline':
-      'International digital agency. Custom software, apps, websites and digital marketing — built to grow your business.',
+      'International digital agency. Custom software, apps, websites and digital marketing, built to grow your business.',
     'footer.services': 'Services',
     'footer.company': 'Company',
     'footer.contact': 'Contact',

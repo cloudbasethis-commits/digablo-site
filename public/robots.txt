@@ -1,4 +1,4 @@
-# DIGABLO — https://digablo.fr
+# DIGABLO : https://digablo.fr
 # Tous les robots sont bienvenus, y compris les moteurs de recherche génératifs (IA).
 
 User-agent: *

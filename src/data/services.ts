@@ -26,12 +26,12 @@ export const servicesContent: Record<Lang, Service[]> = {
     {
       slug: 'software-development',
       name: 'Développement de logiciels sur mesure',
-      metaTitle: 'Développement de logiciels sur mesure — DIGABLO',
+      metaTitle: 'Développement de logiciels sur mesure | DIGABLO',
       metaDescription:
         'Développement de logiciels sur mesure : CRM, gestion de projets, RH, stocks, production. DIGABLO conçoit des outils robustes taillés pour votre métier.',
       tagline: 'Des logiciels taillés pour vos process, pas l’inverse.',
       intro: [
-        'Les solutions standards finissent toujours par vous brider. Chez DIGABLO, nous concevons des logiciels de gestion sur mesure qui épousent exactement votre façon de travailler — et qui évoluent avec vous.',
+        'Les solutions standards finissent toujours par vous brider. Chez DIGABLO, nous concevons des logiciels de gestion sur mesure qui épousent exactement votre façon de travailler, et qui évoluent avec vous.',
         'CRM, gestion de projets, RH, suivi de production, stocks, formations : nous transformons vos processus en outils fiables, rapides et faciles à prendre en main par vos équipes.',
       ],
       offerings: [
@@ -59,7 +59,7 @@ export const servicesContent: Record<Lang, Service[]> = {
     {
       slug: 'web-mobile-apps',
       name: 'Applications web & mobiles',
-      metaTitle: 'Développement d’applications web et mobiles — DIGABLO',
+      metaTitle: 'Développement d’applications web et mobiles | DIGABLO',
       metaDescription:
         'Création d’applications web et mobiles natives, rapides et fiables. DIGABLO développe des apps qui optimisent vos processus et l’expérience de vos clients.',
       tagline: 'Des applications rapides, fiables, que vos utilisateurs adorent.',
@@ -83,7 +83,7 @@ export const servicesContent: Record<Lang, Service[]> = {
         'Publication sur les stores et accompagnement',
       ],
       faq: [
-        { q: 'Faut-il une app native ou une app web ?', a: 'Cela dépend de vos besoins (performance, accès matériel, budget). Nous vous conseillons la meilleure option lors du cadrage — parfois une PWA suffit, parfois le natif s’impose.' },
+        { q: 'Faut-il une app native ou une app web ?', a: 'Cela dépend de vos besoins (performance, accès matériel, budget). Nous vous conseillons la meilleure option lors du cadrage, parfois une PWA suffit, parfois le natif s’impose.' },
         { q: 'Gérez-vous la publication sur l’App Store et Google Play ?', a: 'Oui, nous prenons en charge la mise en ligne et le suivi des mises à jour.' },
         { q: 'L’application fonctionnera-t-elle hors ligne ?', a: 'Nous concevons des applications capables de fonctionner hors ligne et de se synchroniser dès le retour du réseau, comme nous le faisons pour digabloPos.' },
       ],
@@ -92,12 +92,12 @@ export const servicesContent: Record<Lang, Service[]> = {
     {
       slug: 'websites-ecommerce',
       name: 'Sites web & e-commerce',
-      metaTitle: 'Création de sites web et e-commerce — DIGABLO',
+      metaTitle: 'Création de sites web et e-commerce | DIGABLO',
       metaDescription:
         'Création de sites web rapides, modernes et bien référencés, et de boutiques e-commerce qui convertissent. DIGABLO soigne performance, SEO et design.',
       tagline: 'Un site rapide, beau et bien référencé qui travaille pour vous 24h/24.',
       intro: [
-        'Votre site est souvent le premier contact avec un client. Nous créons des sites vitrines et des plateformes e-commerce rapides, élégantes et optimisées pour Google — exactement comme celui que vous consultez.',
+        'Votre site est souvent le premier contact avec un client. Nous créons des sites vitrines et des plateformes e-commerce rapides, élégantes et optimisées pour Google, exactement comme celui que vous consultez.',
         'Performance, référencement naturel et expérience mobile irréprochable : nous construisons des sites qui attirent des visiteurs et les transforment en clients.',
       ],
       offerings: [
@@ -125,7 +125,7 @@ export const servicesContent: Record<Lang, Service[]> = {
     {
       slug: 'digital-marketing',
       name: 'Marketing digital',
-      metaTitle: 'Marketing digital & communication — DIGABLO',
+      metaTitle: 'Marketing digital & communication | DIGABLO',
       metaDescription:
         'Marketing digital : SEO, publicité (Google, Meta, TikTok Ads), community management, branding et création de contenu. DIGABLO vous rend visible et désirable.',
       tagline: 'On vous rend visible, désirable, et on génère des clients.',
@@ -137,7 +137,7 @@ export const servicesContent: Record<Lang, Service[]> = {
         { title: 'SEO & référencement naturel', desc: 'Positionnez-vous durablement sur Google pour attirer un trafic gratuit et qualifié.' },
         { title: 'Publicité en ligne (SEA)', desc: 'Campagnes Google Ads, Meta Ads et TikTok Ads pilotées au résultat.' },
         { title: 'Community management', desc: 'Création, gestion et animation de vos réseaux sociaux et WhatsApp Business.' },
-        { title: 'Identité visuelle & branding', desc: 'Logos, chartes graphiques et supports — une marque cohérente et mémorable.' },
+        { title: 'Identité visuelle & branding', desc: 'Logos, chartes graphiques et supports, une marque cohérente et mémorable.' },
         { title: 'Création de contenu', desc: 'Articles, vidéos, visuels et infographies qui captent et convertissent.' },
         { title: 'Stratégie & analytics', desc: 'Mesure des performances et optimisation continue de votre retour sur investissement.' },
       ],
@@ -160,12 +160,12 @@ export const servicesContent: Record<Lang, Service[]> = {
     {
       slug: 'software-development',
       name: 'Custom software development',
-      metaTitle: 'Custom software development — DIGABLO',
+      metaTitle: 'Custom software development | DIGABLO',
       metaDescription:
         'Custom software development: CRM, project management, HR, inventory, production. DIGABLO builds robust tools tailored to the way your business works.',
       tagline: 'Software built around your processes, not the other way around.',
       intro: [
-        'Off-the-shelf tools always end up limiting you. At DIGABLO, we build custom management software that fits exactly how you work — and grows with you.',
+        'Off-the-shelf tools always end up limiting you. At DIGABLO, we build custom management software that fits exactly how you work, and grows with you.',
         'CRM, project management, HR, production tracking, inventory, training: we turn your processes into reliable, fast tools your teams actually enjoy using.',
       ],
       offerings: [
@@ -193,9 +193,9 @@ export const servicesContent: Record<Lang, Service[]> = {
     {
       slug: 'web-mobile-apps',
       name: 'Web & mobile applications',
-      metaTitle: 'Web and mobile app development — DIGABLO',
+      metaTitle: 'Web and mobile app development | DIGABLO',
       metaDescription:
-        'Web and native mobile app development — fast, reliable apps. DIGABLO builds applications that streamline your processes and delight your customers.',
+        'Web and native mobile app development, fast, reliable apps. DIGABLO builds applications that streamline your processes and delight your customers.',
       tagline: 'Fast, reliable apps your users actually love.',
       intro: [
         'A great app is recognizable by its simplicity: it saves time and makes people want to come back. We design high-performance web and mobile apps, from the first screen to production.',
@@ -217,21 +217,21 @@ export const servicesContent: Record<Lang, Service[]> = {
         'Store publishing and support',
       ],
       faq: [
-        { q: 'Do I need a native app or a web app?', a: 'It depends on your needs (performance, hardware access, budget). We advise the best option during scoping — sometimes a PWA is enough, sometimes native is the way.' },
+        { q: 'Do I need a native app or a web app?', a: 'It depends on your needs (performance, hardware access, budget). We advise the best option during scoping, sometimes a PWA is enough, sometimes native is the way.' },
         { q: 'Do you handle App Store and Google Play publishing?', a: 'Yes, we take care of deployment and update management.' },
-        { q: 'Will the app work offline?', a: 'We build apps that work offline and sync as soon as the network is back — just like we do for digabloPos.' },
+        { q: 'Will the app work offline?', a: 'We build apps that work offline and sync as soon as the network is back, just like we do for digabloPos.' },
       ],
       ctaLine: 'Let’s bring your app to life.',
     },
     {
       slug: 'websites-ecommerce',
       name: 'Websites & e-commerce',
-      metaTitle: 'Website and e-commerce development — DIGABLO',
+      metaTitle: 'Website and e-commerce development | DIGABLO',
       metaDescription:
         'Fast, modern, well-ranked websites and e-commerce stores that convert. DIGABLO obsesses over performance, SEO and design.',
       tagline: 'A fast, beautiful, well-ranked site that works for you 24/7.',
       intro: [
-        'Your website is often a customer’s first contact with you. We create showcase sites and e-commerce platforms that are fast, elegant and optimized for Google — exactly like the one you’re reading.',
+        'Your website is often a customer’s first contact with you. We create showcase sites and e-commerce platforms that are fast, elegant and optimized for Google, exactly like the one you’re reading.',
         'Performance, organic search and flawless mobile experience: we build sites that attract visitors and turn them into customers.',
       ],
       offerings: [
@@ -250,7 +250,7 @@ export const servicesContent: Record<Lang, Service[]> = {
         'Training to update your content',
       ],
       faq: [
-        { q: 'Will my site be fast and rank well on Google?', a: 'Yes. We build ultra-fast static sites targeting green PageSpeed scores — an important ranking factor for Google.' },
+        { q: 'Will my site be fast and rank well on Google?', a: 'Yes. We build ultra-fast static sites targeting green PageSpeed scores, an important ranking factor for Google.' },
         { q: 'Can I update the content myself?', a: 'Yes, we set up a simple way to manage your pages and blog, and we train your team.' },
         { q: 'Do you handle multilingual?', a: 'Absolutely. We handle language versions cleanly (hreflang) to target an international audience.' },
       ],
@@ -259,10 +259,10 @@ export const servicesContent: Record<Lang, Service[]> = {
     {
       slug: 'digital-marketing',
       name: 'Digital marketing',
-      metaTitle: 'Digital marketing & communication — DIGABLO',
+      metaTitle: 'Digital marketing & communication | DIGABLO',
       metaDescription:
         'Digital marketing: SEO, paid ads (Google, Meta, TikTok), community management, branding and content creation. DIGABLO makes you visible and desirable.',
-      tagline: 'We make you visible, desirable — and we generate customers.',
+      tagline: 'We make you visible, desirable, and we generate customers.',
       intro: [
         'The best product in the world is useless if nobody knows about it. We deploy digital marketing strategies that grab attention, drive qualified traffic and turn visitors into customers.',
         'From organic search to paid campaigns, social media and branding, we orchestrate your online presence with one obsession: measurable results.',
@@ -271,7 +271,7 @@ export const servicesContent: Record<Lang, Service[]> = {
         { title: 'SEO & organic search', desc: 'Rank durably on Google to attract free, qualified traffic.' },
         { title: 'Paid advertising (SEA)', desc: 'Google Ads, Meta Ads and TikTok Ads campaigns managed for results.' },
         { title: 'Community management', desc: 'Creating, managing and animating your social media and WhatsApp Business.' },
-        { title: 'Branding & visual identity', desc: 'Logos, brand guidelines and assets — a coherent, memorable brand.' },
+        { title: 'Branding & visual identity', desc: 'Logos, brand guidelines and assets, a coherent, memorable brand.' },
         { title: 'Content creation', desc: 'Articles, videos, visuals and infographics that capture and convert.' },
         { title: 'Strategy & analytics', desc: 'Performance measurement and continuous optimization of your ROI.' },
       ],

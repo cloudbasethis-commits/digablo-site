@@ -75,7 +75,7 @@ export interface HomeContent {
 
 export const homeContent: Record<Lang, HomeContent> = {
   fr: {
-    seoTitle: 'DIGABLO — Agence digitale : logiciels sur mesure, apps & marketing',
+    seoTitle: 'DIGABLO, Agence digitale : logiciels sur mesure, apps & marketing',
     seoDescription:
       "Agence digitale internationale. Développement de logiciels sur mesure, applications web et mobiles, sites web et marketing digital. Et digabloPos, notre logiciel de caisse gratuit.",
     hero: {
@@ -99,7 +99,7 @@ export const homeContent: Record<Lang, HomeContent> = {
           name: 'Développement & solutions techniques',
           tagline: 'Des logiciels robustes, pensés pour vos process.',
           items: [
-            { title: 'Logiciels de gestion sur mesure', desc: 'CRM, gestion de projets, RH, stocks, production, formations — taillés pour votre métier.', slug: 'software-development' },
+            { title: 'Logiciels de gestion sur mesure', desc: 'CRM, gestion de projets, RH, stocks, production, formations, taillés pour votre métier.', slug: 'software-development' },
             { title: 'Applications web & mobiles', desc: 'Apps natives et web rapides qui optimisent vos processus internes et l’expérience client.', slug: 'web-mobile-apps' },
             { title: 'Sites web & e-commerce', desc: 'Sites vitrines, plateformes interactives et boutiques en ligne qui convertissent.', slug: 'websites-ecommerce' },
             { title: 'Données & cybersécurité', desc: 'Centralisation de vos données et protection de vos informations sensibles.', slug: 'software-development' },
@@ -110,7 +110,7 @@ export const homeContent: Record<Lang, HomeContent> = {
           name: 'Marketing digital & communication',
           tagline: 'On vous rend visible et désirable, en ligne.',
           items: [
-            { title: 'Identité visuelle & design', desc: 'Logos, chartes graphiques, supports — une marque qui marque les esprits.', slug: 'digital-marketing' },
+            { title: 'Identité visuelle & design', desc: 'Logos, chartes graphiques, supports, une marque qui marque les esprits.', slug: 'digital-marketing' },
             { title: 'Community management', desc: 'Création, gestion et animation de vos réseaux sociaux et WhatsApp Business.', slug: 'digital-marketing' },
             { title: 'Campagnes & acquisition', desc: 'Google Ads, Meta Ads, TikTok Ads pour générer du trafic et des clients qualifiés.', slug: 'digital-marketing' },
             { title: 'SEO & contenu', desc: 'Référencement naturel, articles, vidéos et infographies pour durablement attirer.', slug: 'digital-marketing' },
@@ -120,7 +120,7 @@ export const homeContent: Record<Lang, HomeContent> = {
     },
     product: {
       eyebrow: 'Notre produit phare',
-      title: 'digabloPos — votre caisse, simple et puissante',
+      title: 'digabloPos, votre caisse, simple et puissante',
       desc:
         'Logiciel de caisse gratuit et certifié : encaissez, gérez vos stocks et pilotez votre activité depuis un smartphone, une tablette ou un ordinateur. Paiement mobile money intégré, et tout fonctionne même hors ligne. Aucun abonnement obligatoire.',
       features: [
@@ -137,7 +137,7 @@ export const homeContent: Record<Lang, HomeContent> = {
       heading: 'Votre partenaire digital de confiance',
       paragraphs: [
         'DIGABLO conçoit et commercialise des solutions digitales pour les entreprises comme pour les particuliers, partout dans le monde.',
-        'Avec plus de 15 ans d’expérience et une équipe de développeurs passionnés, nous livrons des produits innovants qui répondent vraiment aux besoins du marché — de Kinshasa à Paris, et bien au-delà.',
+        'Avec plus de 15 ans d’expérience et une équipe de développeurs passionnés, nous livrons des produits innovants qui répondent vraiment aux besoins du marché, de Kinshasa à Paris, et bien au-delà.',
         'Nous investissons en continu dans la R&D pour que nos solutions restent à la pointe. Votre réussite est notre meilleure publicité.',
       ],
       stats: [
@@ -155,12 +155,12 @@ export const homeContent: Record<Lang, HomeContent> = {
         { title: '1 · Écoute & stratégie', desc: 'On comprend votre métier, vos objectifs et vos contraintes pour cadrer le bon périmètre.' },
         { title: '2 · Design & prototype', desc: 'On maquette l’expérience et on valide la direction avant d’écrire la moindre ligne.' },
         { title: '3 · Développement', desc: 'On construit par itérations, avec des livraisons régulières et des points fréquents.' },
-        { title: '4 · Lancement & support', desc: 'On déploie, on mesure, on optimise — et on reste à vos côtés 24/7.' },
+        { title: '4 · Lancement & support', desc: 'On déploie, on mesure, on optimise, et on reste à vos côtés 24/7.' },
       ],
     },
     products: {
       eyebrow: 'Nos produits',
-      heading: 'On ne fait pas que du sur-mesure — on édite nos propres produits',
+      heading: 'On ne fait pas que du sur-mesure, on édite nos propres produits',
       subheading:
         'La meilleure preuve de notre savoir-faire : des logiciels SaaS que nous avons conçus, lancés et que nous opérons au quotidien, partout dans le monde.',
       items: [
@@ -174,7 +174,7 @@ export const homeContent: Record<Lang, HomeContent> = {
         {
           name: 'MineSync',
           tag: 'Industrie minière · SaaS · Mode hors ligne',
-          desc: 'Plateforme d’automatisation pour le secteur minier : suivi QHSE, production, validations fournisseurs et alertes temps réel — pensée pour les environnements à connectivité difficile.',
+          desc: 'Plateforme d’automatisation pour le secteur minier : suivi QHSE, production, validations fournisseurs et alertes temps réel, pensée pour les environnements à connectivité difficile.',
           href: 'https://minesync.tech/',
           cta: 'Visiter le site',
         },
@@ -188,7 +188,7 @@ export const homeContent: Record<Lang, HomeContent> = {
         {
           name: 'NionsoToo',
           tag: 'Marketplace · Petites annonces · Afrique',
-          desc: 'Plateforme de petites annonces gratuites — immobilier, véhicules, mode, électronique, emplois, services… Acheter, vendre et découvrir simplement. « Tout Kin dans ta main ».',
+          desc: 'Plateforme de petites annonces gratuites, immobilier, véhicules, mode, électronique, emplois, services… Acheter, vendre et découvrir simplement. « Tout Kin dans ta main ».',
           href: 'https://nionsotoo.com/',
           cta: 'Visiter le site',
         },
@@ -213,7 +213,7 @@ export const homeContent: Record<Lang, HomeContent> = {
     },
   },
   en: {
-    seoTitle: 'DIGABLO — Digital agency: custom software, apps & marketing',
+    seoTitle: 'DIGABLO, Digital agency: custom software, apps & marketing',
     seoDescription:
       'International digital agency. Custom software development, web and mobile apps, websites and digital marketing. Plus digabloPos, our free point-of-sale software.',
     hero: {
@@ -230,14 +230,14 @@ export const homeContent: Record<Lang, HomeContent> = {
       eyebrow: 'Our services',
       heading: 'All things digital, under one roof',
       subheading:
-        'End-to-end solutions to power your digital transformation — from the first line of code to the first sale.',
+        'End-to-end solutions to power your digital transformation, from the first line of code to the first sale.',
       groups: [
         {
           id: 'dev',
           name: 'Development & technical solutions',
           tagline: 'Robust software, built around your processes.',
           items: [
-            { title: 'Custom management software', desc: 'CRM, project management, HR, inventory, production, training — tailored to your business.', slug: 'software-development' },
+            { title: 'Custom management software', desc: 'CRM, project management, HR, inventory, production, training, tailored to your business.', slug: 'software-development' },
             { title: 'Web & mobile apps', desc: 'Fast native and web apps that streamline internal processes and customer experience.', slug: 'web-mobile-apps' },
             { title: 'Websites & e-commerce', desc: 'Showcase sites, interactive platforms and online stores that convert.', slug: 'websites-ecommerce' },
             { title: 'Data & cybersecurity', desc: 'Centralize your data and protect your sensitive information.', slug: 'software-development' },
@@ -248,7 +248,7 @@ export const homeContent: Record<Lang, HomeContent> = {
           name: 'Digital marketing & communication',
           tagline: 'We make you visible and desirable, online.',
           items: [
-            { title: 'Branding & design', desc: 'Logos, brand guidelines and assets — a brand that sticks in minds.', slug: 'digital-marketing' },
+            { title: 'Branding & design', desc: 'Logos, brand guidelines and assets, a brand that sticks in minds.', slug: 'digital-marketing' },
             { title: 'Community management', desc: 'Creating, managing and animating your social media and WhatsApp Business.', slug: 'digital-marketing' },
             { title: 'Campaigns & acquisition', desc: 'Google Ads, Meta Ads, TikTok Ads to drive traffic and qualified leads.', slug: 'digital-marketing' },
             { title: 'SEO & content', desc: 'Search optimization, articles, videos and infographics to attract for the long run.', slug: 'digital-marketing' },
@@ -258,7 +258,7 @@ export const homeContent: Record<Lang, HomeContent> = {
     },
     product: {
       eyebrow: 'Our flagship product',
-      title: 'digabloPos — your point of sale, simple and powerful',
+      title: 'digabloPos, your point of sale, simple and powerful',
       desc:
         'Free, certified POS software: take payments, manage inventory and run your business from a smartphone, tablet or computer. Mobile money built in, and everything works even offline. No mandatory subscription.',
       features: [
@@ -275,7 +275,7 @@ export const homeContent: Record<Lang, HomeContent> = {
       heading: 'Your trusted digital partner',
       paragraphs: [
         'DIGABLO designs and delivers digital solutions for businesses and individuals, all around the world.',
-        'With 15+ years of experience and a team of passionate developers, we ship innovative products that truly meet market needs — from Kinshasa to Paris, and far beyond.',
+        'With 15+ years of experience and a team of passionate developers, we ship innovative products that truly meet market needs, from Kinshasa to Paris, and far beyond.',
         'We invest continuously in R&D to keep our solutions on the cutting edge. Your success is our best advertising.',
       ],
       stats: [
@@ -293,12 +293,12 @@ export const homeContent: Record<Lang, HomeContent> = {
         { title: '1 · Listen & strategy', desc: 'We learn your business, goals and constraints to scope the right thing.' },
         { title: '2 · Design & prototype', desc: 'We mock up the experience and validate direction before writing a single line.' },
         { title: '3 · Development', desc: 'We build in iterations, with regular releases and frequent check-ins.' },
-        { title: '4 · Launch & support', desc: 'We deploy, measure and optimize — and stay by your side 24/7.' },
+        { title: '4 · Launch & support', desc: 'We deploy, measure and optimize, and stay by your side 24/7.' },
       ],
     },
     products: {
       eyebrow: 'Our products',
-      heading: 'We don’t just build for clients — we ship our own products',
+      heading: 'We don’t just build for clients, we ship our own products',
       subheading:
         'The best proof of our expertise: SaaS products we designed, launched and operate every day, all around the world.',
       items: [
@@ -312,7 +312,7 @@ export const homeContent: Record<Lang, HomeContent> = {
         {
           name: 'MineSync',
           tag: 'Mining industry · SaaS · Offline mode',
-          desc: 'Automation platform for the mining sector: QHSE tracking, production, supplier approvals and real-time alerts — built for low-connectivity environments.',
+          desc: 'Automation platform for the mining sector: QHSE tracking, production, supplier approvals and real-time alerts, built for low-connectivity environments.',
           href: 'https://minesync.tech/',
           cta: 'Visit the site',
         },
@@ -326,7 +326,7 @@ export const homeContent: Record<Lang, HomeContent> = {
         {
           name: 'NionsoToo',
           tag: 'Marketplace · Classified ads · Africa',
-          desc: 'Free classified-ads marketplace — real estate, vehicles, fashion, electronics, jobs, services… Buy, sell and discover, simply.',
+          desc: 'Free classified-ads marketplace, real estate, vehicles, fashion, electronics, jobs, services… Buy, sell and discover, simply.',
           href: 'https://nionsotoo.com/',
           cta: 'Visit the site',
         },
