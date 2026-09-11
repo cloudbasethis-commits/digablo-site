@@ -1,7 +1,7 @@
 ---
 import { Image } from 'astro:assets';
 import logoLight from '../assets/brand/digablo-logo-light.png';
-import { getLangFromUrl, useTranslations, localizePath, aboutPath } from '../i18n/utils';
+import { getLangFromUrl, useTranslations, localizePath, aboutPath, legalPath } from '../i18n/utils';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -74,7 +74,11 @@ const services = [
   <div class="border-t border-white/10">
     <div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-5 py-5 text-xs text-ink-400 sm:flex-row lg:px-8">
       <p>© {year} DIGABLO. {t('footer.rights')}</p>
-      <p>Kinshasa · Paris · Worldwide</p>
+      <div class="flex items-center gap-4">
+        <a href={legalPath(lang)} class="transition hover:text-brand-400">{t('footer.legal')}</a>
+        <span aria-hidden="true">·</span>
+        <p>Kinshasa · Paris · Worldwide</p>
+      </div>
     </div>
   </div>
 </footer>

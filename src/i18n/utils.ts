@@ -31,6 +31,11 @@ export function comparisonPath(lang: Lang): string {
   return lang === 'fr' ? '/comparateur' : '/en/pos-comparison';
 }
 
+/** Chemin des mentions légales (slug localisé). */
+export function legalPath(lang: Lang): string {
+  return lang === 'fr' ? '/mentions-legales' : '/en/legal-notice';
+}
+
 /**
  * Paires de chemins dont le slug diffère selon la langue.
  * Clé = chemin FR (sans /en), valeur = chemin EN (sans /en).
@@ -39,6 +44,7 @@ const localizedSlugPairs: Record<string, string> = {
   '/a-propos': '/about',
   '/merci': '/thank-you',
   '/comparateur': '/pos-comparison',
+  '/mentions-legales': '/legal-notice',
 };
 
 /** Donne l'URL équivalente dans l'autre langue (pour le sélecteur de langue). */

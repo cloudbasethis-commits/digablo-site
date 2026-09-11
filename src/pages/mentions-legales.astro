@@ -1,0 +1,83 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const updated = '10 septembre 2026';
+---
+
+<BaseLayout
+  title="Mentions légales | DIGABLO"
+  description="Mentions légales du site digablo.fr : éditeur, hébergeur, propriété intellectuelle et protection des données personnelles."
+  noindex={true}
+  alternates={{ fr: '/mentions-legales', en: '/en/legal-notice' }}
+>
+  <section class="bg-white">
+    <div class="mx-auto max-w-3xl px-5 py-16 lg:px-8 lg:py-24">
+      <h1 class="text-3xl font-bold tracking-tight text-ink-950 sm:text-4xl">Mentions légales</h1>
+      <p class="mt-3 text-sm text-ink-500">Dernière mise à jour : {updated}</p>
+
+      <div class="article-body mt-10">
+        <h2>Éditeur du site</h2>
+        <p>
+          Le site <a href="https://digablo.fr">digablo.fr</a> est édité par&nbsp;:
+        </p>
+        <ul>
+          <li><strong>Nom commercial&nbsp;:</strong> DIGABLO</li>
+          <li><strong>Éditeur&nbsp;:</strong> JS Mirmin NKODIA, entrepreneur individuel</li>
+          <li><strong>Adresse (France)&nbsp;:</strong> 32 rue Félicien Rops, 91100 Corbeil-Essonnes, France</li>
+          <li><strong>Adresse (RDC)&nbsp;:</strong> Avenue Marinelle n° 8 Bis, C/Gombé, Kinshasa</li>
+          <li><strong>SIREN&nbsp;:</strong> 827 616 749</li>
+          <li><strong>SIRET (siège)&nbsp;:</strong> 827 616 749 00020</li>
+          <li><strong>Code APE&nbsp;:</strong> 62.01Z – Programmation informatique</li>
+          <li><strong>Courriel&nbsp;:</strong> <a href="mailto:contact@digablo.fr">contact@digablo.fr</a></li>
+          <li><strong>Téléphone&nbsp;:</strong> <a href="tel:+33783813956">+33 7 83 81 39 56</a></li>
+        </ul>
+        <p>
+          <strong>Directeur de la publication&nbsp;:</strong> JS Mirmin NKODIA.
+        </p>
+
+        <h2>Hébergeur</h2>
+        <p>
+          Le site est hébergé par <strong>Vercel Inc.</strong>, 340 S Lemon Ave #4133, Walnut,
+          CA 91789, États-Unis — <a href="https://vercel.com" rel="noopener" target="_blank">vercel.com</a>.
+        </p>
+
+        <h2>Propriété intellectuelle</h2>
+        <p>
+          L'ensemble des éléments du site (structure, textes, logos, images, marques et code) est la
+          propriété de DIGABLO ou de ses partenaires, et est protégé par le droit de la propriété
+          intellectuelle. Toute reproduction, représentation ou diffusion, totale ou partielle, sans
+          autorisation écrite préalable, est interdite.
+        </p>
+
+        <h2>Données personnelles</h2>
+        <p>
+          Les données transmises via le formulaire de contact (nom, adresse électronique, message)
+          sont utilisées uniquement pour répondre à votre demande. Elles ne sont ni cédées ni vendues
+          à des tiers et sont conservées le temps nécessaire au traitement de votre demande.
+        </p>
+        <p>
+          Conformément au Règlement général sur la protection des données (RGPD) et à la loi
+          « Informatique et Libertés », vous disposez d'un droit d'accès, de rectification,
+          d'effacement et d'opposition sur vos données. Pour l'exercer, écrivez à
+          <a href="mailto:contact@digablo.fr">contact@digablo.fr</a>. Vous pouvez également introduire
+          une réclamation auprès de la CNIL (<a href="https://www.cnil.fr" rel="noopener" target="_blank">cnil.fr</a>).
+        </p>
+
+        <h2>Cookies et mesure d'audience</h2>
+        <p>
+          Le site utilise Vercel Web Analytics, une solution de mesure d'audience respectueuse de la
+          vie privée qui ne dépose pas de cookie et ne collecte pas de donnée permettant de vous
+          identifier personnellement. Aucun cookie publicitaire ou de traçage n'est utilisé.
+        </p>
+
+        <h2>Responsabilité</h2>
+        <p>
+          DIGABLO s'efforce d'assurer l'exactitude des informations publiées sur ce site mais ne peut
+          garantir qu'elles soient exemptes d'erreurs. Les liens vers des sites tiers sont fournis à
+          titre indicatif&nbsp;; DIGABLO n'exerce aucun contrôle sur leur contenu et décline toute
+          responsabilité à leur égard.
+        </p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
