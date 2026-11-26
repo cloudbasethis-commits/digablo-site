@@ -2,8 +2,8 @@
   "version": 2,
   "skills": {
     "seo-geo": {
-      "source": "ReScienceLab/opc-skills",
-      "commit": "0c44a6a6e654c38cfd3c8aceda86d7d8de40a183",
+      "source": "resciencelab/opc-skills",
+      "commit": "e5b4d6f0f60164abe1830c25acc16389b6b6cda4",
       "sourceType": "github",
       "skillPath": "skills/seo-geo/SKILL.md",
       "computedHash": "3a38d9449cb57e24e14de88045865c237e974b2ccb3ef8127fa84582f5a702c8"
